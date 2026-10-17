@@ -1,0 +1,33 @@
+name: Обновление данных стран
+on:
+  schedule:
+    - cron: '17 3 * * 1'   # по понедельникам
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  data:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: REST Countries, World Bank, Wikidata, Википедия, рейтинг Эло
+        run: node tools/update-data.mjs
+      - name: Сохранить в репозиторий
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/countries.json
+          if git diff --cached --quiet; then echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          git commit -m "Данные стран на $(date -u +%F)"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+  site:
+    needs: data
+    if: needs.data.outputs.changed == 'true'
+    uses: ./.github/workflows/pages.yml

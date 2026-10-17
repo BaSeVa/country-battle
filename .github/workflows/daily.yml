@@ -1,0 +1,117 @@
+name: Ролики дня
+on:
+  schedule:
+    - cron: '41 5 * * *'   # каждый день около 08:40 по Москве
+  workflow_dispatch:
+    inputs:
+      battle:
+        description: 'Бой: auto — по голосованию в Issues или по расписанию недели; none — без него'
+        type: choice
+        options: [auto, daily, none]
+        default: auto
+      a:
+        description: 'Или задайте пару вручную: код первой страны (например ru)'
+        required: false
+      b:
+        description: 'Код второй страны (например fr)'
+        required: false
+      wc:
+        description: 'Следующая серия чемпионата мира'
+        type: boolean
+        default: true
+      youtube:
+        description: 'Загрузить на YouTube (нужны секреты YT_*)'
+        type: boolean
+        default: true
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: daily
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+      YT_PRIVACY: ${{ vars.YT_PRIVACY || 'private' }}
+      CHANNEL_HANDLE: ${{ vars.CHANNEL_HANDLE }}
+      BATTLE: ${{ inputs.battle || 'auto' }}
+      DO_WC: ${{ github.event_name == 'schedule' || inputs.wc }}
+      DO_YT: ${{ github.event_name == 'schedule' || inputs.youtube }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Playwright, Chromium и ffmpeg
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y -qq ffmpeg > /dev/null
+      - name: Сборка сайта
+        run: python3 build.py dist
+      - name: Голосование в Issues
+        id: vote
+        if: env.BATTLE == 'auto' && inputs.a == ''
+        run: node tools/vote.mjs pick
+      - name: Бой
+        id: battle
+        if: env.BATTLE != 'none'
+        run: |
+          if [ -n "${{ inputs.a }}" ] && [ -n "${{ inputs.b }}" ]; then
+            node tools/render.mjs duel --a "${{ inputs.a }}" --b "${{ inputs.b }}" --out out/battle
+          elif [ "${{ steps.vote.outputs.found }}" = "true" ]; then
+            node tools/render.mjs duel --a "${{ steps.vote.outputs.a }}" --b "${{ steps.vote.outputs.b }}" --out out/battle
+          else
+            node tools/render.mjs daily --out out/battle
+          fi
+      - name: Серия чемпионата мира
+        if: env.DO_WC == 'true'
+        run: |
+          if [ -f state/wc.json ] && node -e "process.exit(JSON.parse(require('fs').readFileSync('state/wc.json','utf8')).stage==='done'?0:1)"; then
+            mkdir -p state/archive && mv state/wc.json "state/archive/wc-$(date -u +%F).json"
+          fi
+          node tools/render.mjs wc --state state/wc.json --out out/wc
+      - name: Релиз с роликами
+        id: release
+        run: |
+          TAG="day-$(date -u +%F)-${GITHUB_RUN_NUMBER}"
+          NOTES=$(mktemp); FILES=()
+          for d in out/battle out/wc; do
+            [ -f "$d/meta.json" ] || continue
+            node -e "const m=require('./$d/meta.json'); console.log('## '+m.title+'\n\n'+m.description+'\n')" >> "$NOTES"
+            for f in $(node -e "console.log(require('./$d/meta.json').files.join(' '))"); do
+              n="$(basename "$d")-$f"; cp "$d/$f" "out/$n"; FILES+=("out/$n")
+            done
+          done
+          [ ${#FILES[@]} -gt 0 ] || { echo "Нет роликов"; exit 1; }
+          gh release create "$TAG" "${FILES[@]}" --title "Ролики $(date -u +%F)" --notes-file "$NOTES"
+          echo "url=https://github.com/${GITHUB_REPOSITORY}/releases/tag/$TAG" >> "$GITHUB_OUTPUT"
+          echo "### Релиз: https://github.com/${GITHUB_REPOSITORY}/releases/tag/$TAG" >> "$GITHUB_STEP_SUMMARY"
+      - name: YouTube
+        id: yt
+        if: env.DO_YT == 'true'
+        continue-on-error: true
+        run: |
+          for d in out/battle out/wc; do [ -f "$d/meta.json" ] && node tools/youtube-upload.mjs "$d/meta.json"; done; true
+      - name: Ответ в заявке
+        if: steps.vote.outputs.found == 'true'
+        run: |
+          LINK=$(node -e "const m=require('./out/battle/meta.json'); console.log(m.youtube||'')")
+          node tools/vote.mjs done "${{ steps.vote.outputs.issue }}" "${LINK:-${{ steps.release.outputs.url }}}"
+      - name: История и состояние чемпионата в репозиторий
+        run: |
+          mkdir -p state
+          for d in out/battle out/wc; do
+            [ -f "$d/meta.json" ] && node -e "const m=require('./$d/meta.json'); const {live,files,...r}=m; r.release='${{ steps.release.outputs.url }}'; console.log(JSON.stringify(r))" >> state/history.jsonl
+          done
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state
+          git diff --cached --quiet || { git commit -m "Ролики $(date -u +%F)"; git pull --rebase -q; git push; }

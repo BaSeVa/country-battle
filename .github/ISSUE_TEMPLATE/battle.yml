@@ -1,0 +1,28 @@
+name: Предложить бой
+description: Предложите пару стран — бой с наибольшим числом 👍 выйдет следующим роликом
+title: "Бой: "
+labels: [battle]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Напишите две страны по-русски или по-английски, например «Россия против Франции» или «Japan vs Brazil».
+        Голосуйте за чужие заявки реакцией 👍 — каждый день выходит бой из заявки с наибольшим числом голосов.
+  - type: input
+    id: a
+    attributes:
+      label: Первая страна
+      placeholder: Россия
+    validations:
+      required: true
+  - type: input
+    id: b
+    attributes:
+      label: Вторая страна
+      placeholder: Франция
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Почему этот бой интересен (по желанию)

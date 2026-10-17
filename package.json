@@ -1,0 +1,14 @@
+{
+  "name": "country-battle",
+  "private": true,
+  "description": "Битва стран: бои шаров-стран с рендером роликов",
+  "scripts": {
+    "build": "python3 build.py dist",
+    "data": "node tools/update-data.mjs",
+    "render:daily": "node tools/render.mjs daily",
+    "render:wc": "node tools/render.mjs wc"
+  },
+  "dependencies": {
+    "playwright": "^1.56.0"
+  }
+}
