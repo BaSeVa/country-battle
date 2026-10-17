@@ -66,10 +66,10 @@ if (MODE === 'wc') {
   }
   res = await page.evaluate(c => window.__fnbattle.auto(c), cfg);
   if (!res) fail('Рендер не удался');
-  const s = res.summary || {}, w = s.winnerName || s.winner || '';
+  const s = res.summary || {};
   const who = sel.a ? `${NAME[sel.a]} vs ${NAME[sel.b]}` : sel.ta ? `${sel.ta.map(i => NAME[i]).join(", ")} vs ${sel.tb.map(i => NAME[i]).join(', ')}` : sel.ffa ? `Битва ${sel.ffa.length} стран` : `Босс vs ${sel.bt.map(i => NAME[i]).join(', ')}`;
   meta.title = `${who} — кто победит? #shorts`.slice(0, 95);
-  meta.description = [`${who}. Кто победит? Пишите в комментариях до просмотра!`, w ? `Победитель: ${w}` : '', `Сид боя: ${res.seed}`, '#countryballs #битвастран #shorts'].filter(Boolean).join('\n\n');
+  meta.description = [`${who}. Кто победит? Пишите в комментариях до просмотра!`, `Сид боя: ${res.seed}`, '#countryballs #битвастран #shorts'].filter(Boolean).join('\n\n');
   meta.tags = ['countryballs', 'битва стран', ...Object.values(sel).flat().filter(x => NAME[x]).map(x => NAME[x])].slice(0, 15);
   meta.sel = sel; meta.seed = res.seed; meta.result = s;
   meta.pair = sel.a ? [sel.a, sel.b] : null;
