@@ -10,9 +10,11 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, 'data', 'countries.json');
 const UA = 'country-battle/1.0 (https://github.com/BaSeVa/country-battle)';
 const src = fs.readFileSync(path.join(ROOT, 'src', 'engine_head.js'), 'utf8');
-const IDS = [...src.matchAll(/\{ id: '([a-z]{2})', label:/g)].map(m => m[1]);
+const ROSTER = [...src.matchAll(/\{ id: '([a-z]{2})', label: '[^']*', alt: '[^']*', name: ['"]([^'"]+)['"], nameEn: ['"]([^'"]+)['"]/g)].map(m => ({ id: m[1], en: m[3] }));
+const IDS = ROSTER.map(r => r.id);
 const prev = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, 'utf8')) : { countries: {} };
 const C = {}; IDS.forEach(id => { C[id] = Object.assign({}, prev.countries?.[id] || {}); });
+const fromWd = {};
 const status = {};
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
@@ -34,7 +36,11 @@ const up = id => id.toUpperCase();
 const round = (v, d) => (v == null || !isFinite(v) ? null : Math.round(v * 10 ** d) / 10 ** d);
 
 await step('restcountries', async () => {
-  const j = await get('https://restcountries.com/v3.1/all?fields=cca2,area,population,capital,capitalInfo,latlng,name');
+  let j = null;
+  for (const u of ['https://restcountries.com/v3.1/all?fields=cca2,area,population,capital,capitalInfo,latlng', 'https://restcountries.com/v3.1/all?fields=cca2,area,capitalInfo,latlng', 'https://restcountries.com/v3/all']) {
+    j = await get(u).catch(() => null); if (Array.isArray(j) && j.length > 100) break; j = null;
+  }
+  if (!j) throw new Error('REST Countries не ответил списком стран');
   let n = 0;
   for (const c of j) {
     const id = (c.cca2 || '').toLowerCase(); if (!C[id]) continue; n++;
@@ -60,10 +66,11 @@ for (const [key, [ind, f]] of Object.entries(WB)) {
 }
 
 await step('wikidata', async () => {
-  const q = `SELECT ?iso ?capRu ?capEn ?peakRu ?peakEn ?elev ?ru ?en WHERE {
+  const q = `SELECT ?iso ?capRu ?capEn ?capPos ?area ?peakRu ?peakEn ?elev ?ru ?en WHERE {
     ?c wdt:P297 ?iso.
     FILTER NOT EXISTS { ?c wdt:P576 ?dissolved }
-    OPTIONAL { ?c wdt:P36 ?cap. ?cap rdfs:label ?capRu FILTER(lang(?capRu)='ru'). ?cap rdfs:label ?capEn FILTER(lang(?capEn)='en') }
+    OPTIONAL { ?c wdt:P36 ?cap. ?cap rdfs:label ?capRu FILTER(lang(?capRu)='ru'). OPTIONAL { ?cap rdfs:label ?capEn FILTER(lang(?capEn)='en') } OPTIONAL { ?cap wdt:P625 ?capPos } }
+    OPTIONAL { ?c p:P2046/psv:P2046 [ wikibase:quantityAmount ?area; wikibase:quantityUnit wd:Q712226 ] }
     OPTIONAL { ?c wdt:P610 ?pk. ?pk wdt:P2044 ?elev. OPTIONAL { ?pk rdfs:label ?peakRu FILTER(lang(?peakRu)='ru') } OPTIONAL { ?pk rdfs:label ?peakEn FILTER(lang(?peakEn)='en') } }
     OPTIONAL { ?ru schema:about ?c; schema:isPartOf <https://ru.wikipedia.org/> }
     OPTIONAL { ?en schema:about ?c; schema:isPartOf <https://en.wikipedia.org/> }
@@ -74,17 +81,22 @@ await step('wikidata', async () => {
     const id = b.iso.value.toLowerCase(); if (!C[id]) continue; seen.add(id);
     const d = C[id];
     if (b.capRu && !d._capSet) { d.capital = b.capRu.value; d._capSet = 1; }
+    const w = fromWd[id] = fromWd[id] || {};
+    if (b.capPos && w.lat == null) { const m = /Point\(([-\d.eE]+) ([-\d.eE]+)\)/.exec(b.capPos.value); if (m) { w.lng = round(+m[1], 3); w.lat = round(+m[2], 3); } }
+    if (b.area) { const a = parseFloat(b.area.value); if (a > 0 && (!w.area || a > w.area)) w.area = a; }
     if (b.elev) { const e = parseFloat(b.elev.value); if (isFinite(e) && e < 9000 && (!d._pk || e > d.peak)) { d.peak = Math.round(e); d.peakRu = b.peakRu?.value || ''; d.peakEn = b.peakEn?.value || ''; d._pk = 1; } }
     if (b.ru) d.wikiRu = decodeURIComponent(b.ru.value.split('/wiki/')[1]);
     if (b.en) d.wikiEn = decodeURIComponent(b.en.value.split('/wiki/')[1]);
   }
   Object.values(C).forEach(d => { delete d._capSet; delete d._pk; });
+  // координаты столицы и площадь из Wikidata, если REST Countries их не дал
+  for (const [id, w] of Object.entries(fromWd)) { const d = C[id]; if (status.restcountries?.ok && d.lat != null) continue; if (w.lat != null) { d.lat = w.lat; d.lng = w.lng; } if (w.area && !(status.restcountries?.ok && d.area)) d.area = round(w.area, w.area < 10 ? 2 : 0); }
   return seen.size;
 });
 
 await step('wikipedia', async () => {
   let n = 0;
-  const firstSentences = (t, max) => { if (!t) return ''; t = t.replace(/\s*\([^()]*\)/g, '').replace(/\s+/g, ' ').trim(); const parts = t.match(/[^.!?]+[.!?]+/g) || [t]; let out = ''; for (const p of parts) { if ((out + p).length > max && out) break; out += p; } return out.trim().slice(0, max + 40); };
+  const firstSentences = (t, max) => { if (!t) return ''; t = t.normalize('NFD').replace(/\u0301/g, '').normalize('NFC').replace(/\s*\([^()]*\)/g, '').replace(/\s*\[[^\]]*\]/g, '').replace(/\s+([,.;:])/g, '$1').replace(/\s+/g, ' ').trim(); const parts = t.match(/[^.!?]+[.!?]+/g) || [t]; let out = ''; for (const p of parts) { if ((out + p).length > max && out) break; out += p; } return out.trim().slice(0, max + 40); };
   for (const id of IDS) {
     const d = C[id]; const w = d.wiki = d.wiki || {};
     for (const [lang, title] of [['ru', d.wikiRu], ['en', d.wikiEn]]) {
@@ -101,8 +113,11 @@ await step('elo', async () => {
   const t = await get('https://www.eloratings.net/World.tsv', {}, 'text');
   const code = id => (id === 'gb' ? 'EN' : up(id)), rows = new Map();
   for (const line of t.split('\n')) { const f = line.split('\t'); if (f.length > 3 && f[2]) rows.set(f[2], { rank: +f[0], elo: +f[3] }); }
+  // команды, у которых код отличается от ISO, ищем по английскому названию
+  const names = new Map(); const teams = await get('https://www.eloratings.net/en.teams.tsv', {}, 'text').catch(() => '');
+  for (const line of (teams || '').split('\n')) { const f = line.split('\t'); if (f[0] && !f[0].includes('_')) f.slice(1).forEach(nm => names.set(nm.trim().toLowerCase(), f[0])); }
   let n = 0;
-  for (const id of IDS) { const r = rows.get(code(id)); if (r && r.elo) { C[id].elo = r.elo; C[id].eloRank = r.rank; n++; } }
+  for (const id of IDS) { const en = ROSTER.find(r => r.id === id).en.toLowerCase(); const r = rows.get(code(id)) || rows.get(names.get(en)) || rows.get(names.get(en.replace(/^the /, ''))); if (r && r.elo) { C[id].elo = r.elo; C[id].eloRank = r.rank; n++; } }
   if (n < 50) throw new Error('слишком мало совпадений: ' + n);
   return n;
 });
