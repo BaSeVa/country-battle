@@ -665,6 +665,7 @@ h3.subh { margin: 8px 0 0; font: 600 14px var(--f-body); }
 // данные из открытых API (World Bank, REST Countries, Wikidata, Википедия, рейтинг Эло сборных), собираются в GitHub Actions
 const LIVE = /*LIVE*/null;
 const LC = id => (LIVE && LIVE.countries && LIVE.countries[id]) || null;
+const liveSrc = wiki => { const S = (LIVE && LIVE.sources) || {}, ok = k => Object.keys(S).some(x => x.startsWith(k) && S[x].ok), L = []; if (ok('worldbank')) L.push('World Bank'); L.push(ok('restcountries') ? 'REST Countries' : wiki); if (ok('wikidata')) L.push('Wikidata'); return L.join(', '); };
 // ===================== Сцена =====================
 const W = 1080, H = 1920, AX = 40, AY = 440, AS = 1000, PXU = AS / (2 * U);
 const wx = x => AX + AS / 2 + x * PXU, wy = y => AY + AS / 2 - y * PXU;
@@ -3687,7 +3688,7 @@ const CARD_EXT = {
     ctx.textAlign = 'center'; ctx.textBaseline = 'alphabetic';
     const cl = tx(c.ru, c.en, c.es, c.pt), cu = tx(c.unitRu, c.unitEn, c.unitEs, c.unitPt); fitFont(cl, '800 $px Unbounded, sans-serif', 960, 96); ctx.fillStyle = P.ink; ctx.fillText(cl, 540, 560);
     ctx.font = '600 38px "Golos Text", sans-serif'; ctx.fillStyle = P.muted; ctx.fillText(cu, 540, 620);
-    ctx.font = '500 24px "Golos Text", sans-serif'; ctx.fillText(LIVE ? tx(`Источники: World Bank, REST Countries, Wikidata · данные на ${LIVE.updated}`, `Sources: World Bank, REST Countries, Wikidata · data as of ${LIVE.updated}`, `Fuentes: World Bank, REST Countries, Wikidata · datos de ${LIVE.updated}`, `Fontes: World Bank, REST Countries, Wikidata · dados de ${LIVE.updated}`) : tx('Источники: Википедия; население — ООН, WPP 2024, оценка на 2026 год', 'Sources: Wikipedia; population — UN WPP 2024, 2026 estimate', 'Fuentes: Wikipedia; población — ONU WPP 2024, estimación 2026', 'Fontes: Wikipédia; população — ONU WPP 2024, estimativa 2026'), 540, 1840);
+    ctx.font = '500 24px "Golos Text", sans-serif'; ctx.fillText(LIVE ? tx(`Источники: ${liveSrc('Википедия')} · данные на ${LIVE.updated}`, `Sources: ${liveSrc('Wikipedia')} · data as of ${LIVE.updated}`, `Fuentes: ${liveSrc('Wikipedia')} · datos de ${LIVE.updated}`, `Fontes: ${liveSrc('Wikipedia')} · dados de ${LIVE.updated}`) : tx('Источники: Википедия; население — ООН, WPP 2024, оценка на 2026 год', 'Sources: Wikipedia; population — UN WPP 2024, 2026 estimate', 'Fuentes: Wikipedia; población — ONU WPP 2024, estimación 2026', 'Fontes: Wikipédia; população — ONU WPP 2024, estimativa 2026'), 540, 1840);
     ctx.font = '800 54px Unbounded, sans-serif'; ctx.fillStyle = P.ink; ctx.fillText(`${card.score[0]} : ${card.score[1]}`, 540, 720);
     const vals = [card.va, card.vb], mx = Math.max(...vals), k = ease(t / 1.6), win = card.va === card.vb ? -1 : card.va > card.vb ? 0 : 1, bottom = 1400, maxH = 560;
     [card.a, card.b].forEach((id, s) => {
