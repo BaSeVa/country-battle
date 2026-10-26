@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19",
+ "updated": "2026-10-26",
  "sources": {
   "restcountries": {
    "ok": false,
@@ -82,7 +82,7 @@
     "ru": "Соединённые Штаты Америки — государство в Северной Америке площадью в 9,8 млн км².",
     "en": "The United States of America, also known as the United States or America, is a country primarily located in North America. It is a federal republic consisting of 50 states and a federal capital district, Washington, D.C."
    },
-   "elo": 1792,
+   "elo": 1793,
    "eloRank": 25,
    "lat": 38.895,
    "lng": -77.037
@@ -2384,7 +2384,7 @@
    "wikiEn": "Nepal",
    "wiki": {
     "ru": "Непал, официальное название — Федеративная Демократическая Республика Непал — государство в Южной Азии, в центральной части Гималаев. Граничит на севере с Китаем, на востоке, юге и западе с Индией. Столица — Катманду.",
-    "en": "Nepal, officially Federal Democratic of Republic Nepal is a landlocked country in South Asia. It is mainly situated in the Himalayas, but also includes parts of the Indo-Gangetic Plain."
+    "en": "Nepal, officially Federal Democratic Republic of Nepal, is a landlocked country in South Asia. It is mainly situated in the Himalayas, but also includes parts of the Indo-Gangetic Plain."
    },
    "elo": 893,
    "eloRank": 200,
@@ -2564,7 +2564,7 @@
    "wikiEn": "Singapore",
    "wiki": {
     "ru": "Сингапур, официальное название — Республика Сингапур — город-государство, расположенный на островах в Юго-Восточной Азии, отделённых от южной оконечности Малаккского полуострова узким Джохорским проливом.",
-    "en": "Singapore, officially the Republic of Singapore, is an island country in Southeast Asia. Its territory comprises a main island, over 60 satellite islands and islets, and one outlying islet."
+    "en": "Singapore, officially the Republic of Singapore, is an island country and city-state in Southeast Asia. Its territory comprises a main island, over 60 satellite islands and islets, and one outlying islet."
    },
    "elo": 1149,
    "eloRank": 165,
@@ -2694,9 +2694,9 @@
    "wikiEn": "Turkmenistan",
    "wiki": {
     "ru": "Туркменистан, также Туркмения — государство в юго-западной части Центральной Азии, столицей и крупнейшим городом которого является Ашхабад.",
-    "en": "Turkmenistan, formely known as Turkmenia, is a landlocked country in Central Asia, bordered by Kazakhstan and Uzbekistan to the north, Afghanistan to the southeast, Iran to the south and southwest, and the Caspian Sea to the west."
+    "en": "Turkmenistan, formerly known as Turkmenia, is a landlocked country in Central Asia, bordered by Kazakhstan and Uzbekistan to the north, Afghanistan to the southeast, Iran to the south and southwest, and the Caspian Sea to the west."
    },
-   "elo": 1209,
+   "elo": 1208,
    "eloRank": 156,
    "lat": 37.95,
    "lng": 58.383
@@ -2746,7 +2746,7 @@
    "wikiEn": "Uzbekistan",
    "wiki": {
     "ru": "Узбекистан, официальное название — Республика Узбекистан — государство, расположенное в центральной части Средней Азии. Является нейтральным государством. Площадь — 448 924 км².",
-    "en": "Uzbekistan, officially the Republic of Uzbekistan, formely known as Uzbekia, is a sovereign, doubly landlocked country located in Central Asia."
+    "en": "Uzbekistan, officially the Republic of Uzbekistan, formerly known as Uzbekia, is a sovereign, doubly landlocked country located in Central Asia."
    },
    "elo": 1645,
    "eloRank": 55,
@@ -3056,7 +3056,7 @@
    "wikiEn": "Tonga",
    "wiki": {
     "ru": "Тонга, официальное название — Королевство Тонга — государство в Полинезии. Граничит на севере с водами Самоа, на востоке — с территориальными водами Ниуэ, на западе — с водами Фиджи. Протяжённость прибрежной полосы — 419 км.",
-    "en": "Tonga, officially known as the Kingdom of Tonga, is an island country in Polynesia, part of Oceania. The country has 171 islands, of which 45 are inhabited."
+    "en": "Tonga, officially the Kingdom of Tonga, is an island country in Polynesia, part of Oceania. The country has 171 islands, of which 45 are inhabited."
    },
    "elo": 520,
    "eloRank": 239,
@@ -3344,7 +3344,7 @@
     "ru": "Гренада — островное государство на юго-востоке Карибского моря, занимает остров Гренада и южную часть островов Гренадины в группе Малых Антильских островов, в 120 км к северу от Тринидада.",
     "en": "Grenada is an archipelagic country of the West Indies in the eastern Caribbean Sea."
    },
-   "elo": 998,
+   "elo": 999,
    "eloRank": 188,
    "lat": 12.053,
    "lng": -61.753
@@ -3654,7 +3654,7 @@
    "wikiEn": "Guyana",
    "wiki": {
     "ru": "Гайана, полное официальное название — Кооперативная Республика Гайана — государство на северо-востоке Южной Америки.",
-    "en": "Guyana, officially the Republic of Guyana, is a country in South America. It is bordered by the Atlantic Ocean to the north, Suriname to the east, Brazil to the south and southwest, and Venezuela to the west."
+    "en": "Guyana, officially the Co-operative Republic of Guyana, is a country in South America. It is bordered by the Atlantic Ocean to the north, Suriname to the east, Brazil to the south and southwest, and Venezuela to the west."
    },
    "elo": 1325,
    "eloRank": 128,
