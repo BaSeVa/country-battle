@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-11-02",
  "sources": {
   "restcountries": {
    "ok": false,
@@ -79,7 +79,7 @@
    "wikiRu": "Соединённые_Штаты_Америки",
    "wikiEn": "United_States",
    "wiki": {
-    "ru": "Соединённые Штаты Америки — государство в Северной Америке площадью в 9,8 млн км².",
+    "ru": "Соединённые Штаты Америки — государство в Северной Америке площадью — 9 831 513 км².",
     "en": "The United States of America, also known as the United States or America, is a country primarily located in North America. It is a federal republic consisting of 50 states and a federal capital district, Washington, D.C."
    },
    "elo": 1793,
@@ -782,7 +782,7 @@
    "wikiEn": "Republic_of_Ireland",
    "wiki": {
     "ru": "Ирландия — островное государство в Северной Европе, занимающее большую часть острова Ирландия. На севере граничит с Северной Ирландией. Площадь — 70,2 тыс. км².",
-    "en": "Ireland, also known as the Republic of Ireland, is a country in Northwestern Europe. It consists of 26 of the 32 counties of the island of Ireland, with a population of about 5.4 million."
+    "en": "Ireland, also known as the Republic of Ireland, is a country in Northwestern Europe. It consists of 26 of the 32 counties of the island of Ireland, with a population of about 5.5 million."
    },
    "elo": 1711,
    "eloRank": 42,
@@ -1457,7 +1457,7 @@
    "wikiRu": "Лихтенштейн",
    "wikiEn": "Liechtenstein",
    "wiki": {
-    "ru": "Лихтенштейн, официально — Княжество Лихтенштейн — карликовое государство в Центральной Европе. Площадь — 160 км². Население — чуть более 38 тысяч человек.",
+    "ru": "Лихтенштейн, официально — Княжество Лихтенштейн — карликовое государство в Центральной Европе. Площадь — 160,5 км². Население — чуть более 38 тысяч человек.",
     "en": "Liechtenstein, officially the Principality of Liechtenstein, is a doubly landlocked country in the Central European Alps."
    },
    "elo": 887,
@@ -2222,7 +2222,7 @@
    "forest": 56.6,
    "capital": "Вьентьян",
    "peak": 2819,
-   "peakRu": "Пхубиа",
+   "peakRu": "Биа",
    "peakEn": "Phou Bia",
    "wikiRu": "Лаос",
    "wikiEn": "Laos",
@@ -2305,7 +2305,7 @@
    "wikiRu": "Мальдивы",
    "wikiEn": "Maldives",
    "wiki": {
-    "ru": "Мальдивы, официальное название — Мальдивская Республика, — островное государство в Южной Азии, располагающееся на группе атоллов к югу от полуострова Индостан на стыке Аравийского и Лаккадивского морей Индийского океана.",
+    "ru": "Мальдивы, официальное название — Мальдивская Республика — островное государство в Южной Азии, располагающееся на группе атоллов к югу от полуострова Индостан на стыке Аравийского и Лаккадивского морей Индийского океана.",
     "en": "The Maldives, officially the Republic of Maldives, and historically known as the Maldive Islands, is an archipelagic country in South Asia, located in the Indian Ocean, near the southeastern boundary of the Arabian Sea."
    },
    "elo": 793,
@@ -2384,7 +2384,7 @@
    "wikiEn": "Nepal",
    "wiki": {
     "ru": "Непал, официальное название — Федеративная Демократическая Республика Непал — государство в Южной Азии, в центральной части Гималаев. Граничит на севере с Китаем, на востоке, юге и западе с Индией. Столица — Катманду.",
-    "en": "Nepal, officially Federal Democratic Republic of Nepal, is a landlocked country in South Asia. It is mainly situated in the Himalayas, but also includes parts of the Indo-Gangetic Plain."
+    "en": "Nepal is a landlocked country in South Asia. It is mainly situated in the Himalayas, but also includes parts of the Indo-Gangetic Plain."
    },
    "elo": 893,
    "eloRank": 200,
@@ -2531,7 +2531,7 @@
    "life": 79,
    "forest": 1.3,
    "capital": "Эр-Рияд",
-   "peak": 3133,
+   "peak": 3207,
    "peakRu": "",
    "peakEn": "Jabal Sawda",
    "wikiRu": "Саудовская_Аравия",
@@ -2824,7 +2824,7 @@
    "wikiEn": "Fiji",
    "wiki": {
     "ru": "Фиджи, официальное название — Республика Фиджи — независимое государство в Океании на востоке Меланезии, расположенное на архипелаге Фиджи в юго-западной части Тихого океана, к северу от Новой Зеландии, к востоку от Вануату, к югу от Тувалу и к западу от Тонги.",
-    "en": "Fiji, officially the Republic of Fiji, is an archipelagic country in Melanesia, part of Oceania in the South Pacific Ocean. It lies about 1,100 nautical miles north-northeast of New Zealand."
+    "en": "Fiji, officially the Republic of Fiji, is an archipelagic country in the Melanesia region of Oceania, in the South Pacific Ocean. It lies about 1,100 nautical miles north-northeast of New Zealand."
    },
    "elo": 1136,
    "eloRank": 167,
@@ -2928,7 +2928,7 @@
    "wikiEn": "Nauru",
    "wiki": {
     "ru": "Науру, официально — Наоэро, официальное название — Республика Наоэро, — островное государство в Микронезии, в западной части Тихого океана.",
-    "en": "Nauru or Naoero, officially the Republic of Naoero, is an island country and microstate in the South Pacific Ocean."
+    "en": "Nauru or Naoero, officially the Republic of Naoero, is an island country in Oceania, in the South Pacific Ocean."
    },
    "lat": -0.548,
    "lng": 166.921
@@ -3108,7 +3108,7 @@
    "wikiEn": "Vanuatu",
    "wiki": {
     "ru": "Вануату, официальное название — Республика Вануату — тихоокеанское государство в Меланезии.",
-    "en": "Vanuatu, officially the Republic of Vanuatu, is an archipelagic country in Melanesia located in the South Pacific Ocean."
+    "en": "Vanuatu, officially the Republic of Vanuatu, is an archipelagic country in the Melanesia region of Oceania located in the South Pacific Ocean."
    },
    "elo": 1153,
    "eloRank": 164,
