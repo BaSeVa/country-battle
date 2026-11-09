@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-09",
  "sources": {
   "restcountries": {
    "ok": false,
@@ -15,7 +15,7 @@
   },
   "worldbank:life": {
    "ok": true,
-   "n": 144
+   "n": 2304
   },
   "worldbank:forest": {
    "ok": true,
@@ -40,11 +40,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 2561.3,
-   "life": 73.4,
+   "life": 68.7,
    "forest": 50.8,
    "capital": "Москва",
    "peak": 5642,
@@ -66,11 +66,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 30769.7,
-   "life": 78.9,
+   "life": 78.4,
    "forest": 33.8,
    "capital": "Вашингтон",
    "peak": 6190,
@@ -92,11 +92,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 19498,
-   "life": 78,
+   "life": 75.3,
    "forest": 24,
    "capital": "Пекин",
    "peak": 8849,
@@ -118,11 +118,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 4435.2,
-   "life": 84,
+   "life": 82.9,
    "forest": 68.3,
    "capital": "Токио",
    "peak": 3777,
@@ -144,11 +144,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 2279.9,
-   "life": 76,
+   "life": 73.5,
    "forest": 58.5,
    "capital": "Бразилиа",
    "peak": 2994,
@@ -170,11 +170,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 3956.1,
-   "life": 72.2,
+   "life": 66.7,
    "forest": 24.4,
    "capital": "Нью-Дели",
    "peak": 8586,
@@ -186,8 +186,8 @@
     "ru": "Индия, официальное название — Республика Индия — государство, расположенное в Южной Азии.",
     "en": "India, officially the Republic of India, is a country in South Asia. It is the world's seventh-largest country by area and its most populous."
    },
-   "elo": 1135,
-   "eloRank": 168,
+   "elo": 1144,
+   "eloRank": 167,
    "lat": 28.614,
    "lng": 77.209
   },
@@ -196,11 +196,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 5050.9,
-   "life": 80.8,
+   "life": 79.8,
    "forest": 32.8,
    "capital": "Берлин",
    "peak": 2962,
@@ -222,11 +222,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 3366.3,
-   "life": 83,
+   "life": 81.4,
    "forest": 32.9,
    "capital": "Париж",
    "peak": 4806,
@@ -248,11 +248,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 2551.6,
-   "life": 84,
+   "life": 81.6,
    "forest": 31.8,
    "capital": "Рим",
    "peak": 4806,
@@ -274,11 +274,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 4002.6,
-   "life": 81.4,
+   "life": 80.1,
    "forest": 13.5,
    "capital": "Лондон",
    "peak": 1345,
@@ -300,11 +300,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 1906.5,
-   "life": 83.9,
+   "life": 81.5,
    "forest": 38.2,
    "capital": "Мадрид",
    "peak": 3715,
@@ -326,11 +326,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 2319.9,
-   "life": 82.1,
+   "life": 81.1,
    "forest": 42,
    "capital": "Оттава",
    "peak": 5959,
@@ -352,11 +352,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 1832.6,
-   "life": 75.3,
+   "life": 73.6,
    "forest": 34.2,
    "capital": "Мехико",
    "peak": 5636,
@@ -378,11 +378,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 365.3,
-   "life": 71.8,
+   "life": 68.9,
    "forest": 0,
    "capital": "Каир",
    "peak": 2637,
@@ -404,11 +404,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 1798.5,
-   "life": 83.1,
+   "life": 81.5,
    "forest": 17.4,
    "capital": "Канберра",
    "peak": 2745,
@@ -420,7 +420,7 @@
     "ru": "Австралия, официальная форма — Австралийский Союз — государство в Южном полушарии, занимающее одноимённый материк, остров Тасмания и несколько других островов Индийского и Тихого океанов; является шестым государством по площади в мире.",
     "en": "Australia, officially the Commonwealth of Australia, is a country comprising the mainland of the Australian continent, the island of Tasmania and numerous smaller islands."
    },
-   "elo": 1786,
+   "elo": 1787,
    "eloRank": 26,
    "lat": -35.293,
    "lng": 149.127
@@ -430,11 +430,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 1872.4,
-   "life": 83.6,
+   "life": 80,
    "forest": 64.4,
    "capital": "Сеул",
    "peak": 1947,
@@ -456,11 +456,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 1043.5,
-   "life": 84.4,
+   "life": 82,
    "forest": 32,
    "capital": "Берн",
    "peak": 4634,
@@ -482,11 +482,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 1597.3,
-   "life": 77.4,
+   "life": 74.7,
    "forest": 29.5,
    "capital": "Анкара",
    "peak": 5137,
@@ -495,7 +495,7 @@
    "wikiRu": "Турция",
    "wikiEn": "Turkey",
    "wiki": {
-    "ru": "Турция, официально — Турецкая Республика, — государство в Западной Азии и в Южной Европе. Население — 85 372 377 чел., площадь — 783 562 км². Турция граничит с 14 государствами.",
+    "ru": "Турция, официально — Турецкая Республика, — государство в Западной Азии и в Южной Европе. Население — 85 372 377 человек., площадь — 783 562 км². Турция граничит с 14 государствами.",
     "en": "Turkey, officially the Republic of Türkiye, is a country mainly located in Anatolia in West Asia, with a smaller part called East Thrace in Southeast Europe."
    },
    "elo": 1768,
@@ -508,11 +508,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 306.2,
-   "life": 74.5,
+   "life": 67.5,
    "forest": 1.3,
    "capital": "Астана",
    "peak": 7010,
@@ -534,11 +534,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 683.1,
-   "life": 77.5,
+   "life": 75.6,
    "forest": 17.1,
    "capital": "Буэнос-Айрес",
    "peak": 6962,
@@ -560,11 +560,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 290.8,
-   "life": 54.6,
+   "life": 51.1,
    "forest": 18.9,
    "capital": "Абуджа",
    "peak": 2419,
@@ -586,11 +586,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 280.6,
-   "life": 81.8,
+   "life": 80.2,
    "forest": 36.9,
    "capital": "Афины",
    "peak": 2918,
@@ -612,11 +612,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 1332.8,
-   "life": 82,
+   "life": 80.5,
    "forest": 11,
    "capital": "Амстердам",
    "peak": 870,
@@ -638,11 +638,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 346.6,
-   "life": 82.4,
+   "life": 78.7,
    "forest": 36.6,
    "capital": "Лиссабон",
    "peak": 2351,
@@ -664,11 +664,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 1035.5,
-   "life": 78.4,
+   "life": 75.7,
    "forest": 31,
    "capital": "Варшава",
    "peak": 2501,
@@ -690,11 +690,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 317,
-   "life": 82.3,
+   "life": 79.7,
    "forest": 74.2,
    "capital": "Хельсинки",
    "peak": 1361,
@@ -716,11 +716,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 530.8,
-   "life": 83.2,
+   "life": 80.8,
    "forest": 33.2,
    "capital": "Осло",
    "peak": 2469,
@@ -730,7 +730,7 @@
    "wikiEn": "Norway",
    "wiki": {
     "ru": "Норвегия, официальное название — Королевство Норвегия — государство в Северной Европе, располагающееся в западной части Скандинавского полуострова и на огромном количестве прилегающих мелких островов, а также на архипелаге Шпицберген, островах Ян-Майен и Медвежьем в Сев",
-    "en": "Norway, officially the Kingdom of Norway, is a Nordic country comprising the western and northernmost parts of the Scandinavian Peninsula in Northern Europe, the remote Arctic island Jan Mayen and the archipelago Svalbard."
+    "en": "Norway, officially the Kingdom of Norway, is a Nordic country comprising the western and northernmost parts of the Scandinavian Peninsula in Northern Europe, the remote Arctic island Jan Mayen and the archipelago of Svalbard."
    },
    "elo": 1900,
    "eloRank": 12,
@@ -742,11 +742,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 38.6,
-   "life": 82.8,
+   "life": 81.8,
    "forest": 0.6,
    "capital": "Рейкьявик",
    "peak": 2110,
@@ -768,11 +768,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 721.7,
-   "life": 83,
+   "life": 80.2,
    "forest": 12,
    "capital": "Дублин",
    "peak": 1039,
@@ -794,11 +794,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 669,
-   "life": 84.1,
+   "life": 81.4,
    "forest": 68.6,
    "capital": "Стокгольм",
    "peak": 2097,
@@ -820,11 +820,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 514.7,
-   "life": 74.7,
+   "life": 73.5,
    "forest": 47.1,
    "capital": "Ханой",
    "peak": 3147,
@@ -846,11 +846,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 577,
-   "life": 76.6,
+   "life": 74.7,
    "forest": 38.7,
    "capital": "Бангкок",
    "peak": 2565,
@@ -872,11 +872,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 1445.6,
-   "life": 71.3,
+   "life": 68.3,
    "forest": 50.7,
    "capital": "Джакарта",
    "peak": 4884,
@@ -898,13 +898,13 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 427.2,
-   "life": 66.3,
+   "life": 57.4,
    "forest": 18.8,
-   "capital": "Кейптаун",
+   "capital": "Претория",
    "peak": 3450,
    "peakRu": "Мафади",
    "peakEn": "Mafadi",
@@ -916,19 +916,19 @@
    },
    "elo": 1595,
    "eloRank": 65,
-   "lat": -33.925,
-   "lng": 18.424
+   "lat": -25.746,
+   "lng": 28.188
   },
   "ke": {
    "pop": 57.5325,
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 135.9,
-   "life": 63.8,
+   "life": 60.5,
    "forest": 6.6,
    "capital": "Найроби",
    "peak": 5199,
@@ -950,11 +950,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 22.7,
-   "life": 71.6,
+   "life": 71.7,
    "forest": 56.5,
    "capital": "Кингстон",
    "peak": 2256,
@@ -976,11 +976,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 357.4,
-   "life": 81.4,
+   "life": 78.9,
    "forest": 24.5,
    "capital": "Сантьяго",
    "peak": 6893,
@@ -1002,11 +1002,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 457.4,
-   "life": 77.9,
+   "life": 74.5,
    "forest": 53.7,
    "capital": "Богота",
    "peak": 5775,
@@ -1028,11 +1028,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2020,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 107.4,
-   "life": 78.3,
+   "life": 77.6,
    "forest": 34.9,
    "capital": "Гавана",
    "peak": 1974,
@@ -1054,11 +1054,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 264.1,
-   "life": 82,
+   "life": 80.7,
    "forest": 38.9,
    "capital": "Веллингтон",
    "peak": 3724,
@@ -1080,11 +1080,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 30.5,
-   "life": 79.8,
+   "life": 78.5,
    "forest": 34.3,
    "capital": "Тирана",
    "peak": 2764,
@@ -1106,11 +1106,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 4.501,
-   "life": 84.2,
+   "life": 84.1,
    "forest": 38.9,
    "capital": "Андорра-ла-Велья",
    "peak": 2942,
@@ -1132,11 +1132,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 579.5,
-   "life": 82,
+   "life": 80.3,
    "forest": 47.3,
    "capital": "Вена",
    "peak": 3798,
@@ -1158,11 +1158,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 93.4,
-   "life": 74.4,
+   "life": 70.4,
    "forest": 44.1,
    "capital": "Минск",
    "peak": 345,
@@ -1184,11 +1184,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 725.5,
-   "life": 82.3,
+   "life": 80,
    "forest": 22,
    "capital": "Брюссель",
    "peak": 694,
@@ -1210,11 +1210,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 32.6,
-   "life": 78,
+   "life": 76.7,
    "forest": 42.2,
    "capital": "Сараево",
    "peak": 2386,
@@ -1236,11 +1236,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 130.8,
-   "life": 75.8,
+   "life": 73.4,
    "forest": 36.4,
    "capital": "София",
    "peak": 2925,
@@ -1262,11 +1262,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 105.1,
-   "life": 78.9,
+   "life": 76.2,
    "forest": 34.8,
    "capital": "Загреб",
    "peak": 1831,
@@ -1288,11 +1288,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 41.2,
-   "life": 81.8,
+   "life": 80.4,
    "forest": 18.6,
    "capital": "Никосия",
    "peak": 1952,
@@ -1314,11 +1314,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 391,
-   "life": 80,
+   "life": 77.1,
    "forest": 38.4,
    "capital": "Прага",
    "peak": 1603,
@@ -1340,11 +1340,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 462.5,
-   "life": 82.3,
+   "life": 78.6,
    "forest": 16,
    "capital": "Копенгаген",
    "peak": 171,
@@ -1366,11 +1366,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 47,
-   "life": 79.3,
+   "life": 74.8,
    "forest": 57.2,
    "capital": "Таллин",
    "peak": 317,
@@ -1392,11 +1392,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 246.5,
-   "life": 76.7,
+   "life": 73.9,
    "forest": 22.8,
    "capital": "Будапешт",
    "peak": 1014,
@@ -1418,11 +1418,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 48.6,
-   "life": 76.4,
+   "life": 73.1,
    "forest": 55.6,
    "capital": "Рига",
    "peak": 312,
@@ -1444,11 +1444,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2024,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 8.906,
-   "life": 84.2,
+   "life": 81.5,
    "forest": 36.8,
    "capital": "Вадуц",
    "peak": 2599,
@@ -1461,7 +1461,7 @@
     "en": "Liechtenstein, officially the Principality of Liechtenstein, is a doubly landlocked country in the Central European Alps."
    },
    "elo": 887,
-   "eloRank": 202,
+   "eloRank": 201,
    "lat": 47.141,
    "lng": 9.522
   },
@@ -1470,11 +1470,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 95.2,
-   "life": 77.2,
+   "life": 72.9,
    "forest": 35.4,
    "capital": "Вильнюс",
    "peak": 294,
@@ -1496,11 +1496,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 101.2,
-   "life": 83.2,
+   "life": 80.6,
    "forest": 34.5,
    "capital": "Люксембург",
    "peak": 560,
@@ -1510,7 +1510,7 @@
    "wikiEn": "Luxembourg",
    "wiki": {
     "ru": "Люксембург, официально — Великое Герцогство Люксембург — государство в Западной Европе. Граничит с Бельгией на севере, с Францией на западе и юге, с Германией на востоке. Не имеет выхода к морю.",
-    "en": "Luxembourg, officially the Grand Duchy of Luxembourg, is a landlocked country in Western Europe. It is bordered by Belgium to the west and north, Germany to the east, and France to the south and west."
+    "en": "Luxembourg, officially the Grand Duchy of Luxembourg, is a landlocked country in Western Europe. It is bordered by Belgium to the west and north, Germany to the east, and France to the south."
    },
    "elo": 1383,
    "eloRank": 107,
@@ -1522,11 +1522,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 27.8,
-   "life": 83,
+   "life": 80.2,
    "forest": 1.5,
    "capital": "Валлетта",
    "peak": 253,
@@ -1548,11 +1548,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 20.4,
-   "life": 71.3,
+   "life": 69.4,
    "forest": 11.3,
    "capital": "Кишинёв",
    "peak": 430,
@@ -1574,11 +1574,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2024,
-    "life": 2024,
+    "life": 2009,
     "forest": 2023
    },
    "gdp": 11.1,
-   "life": 86.5,
+   "life": 84.2,
    "forest": 0,
    "capital": "Монако",
    "peak": 162,
@@ -1600,11 +1600,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 9.233,
-   "life": 77.9,
+   "life": 75.1,
    "forest": 61.5,
    "capital": "Подгорица",
    "peak": 2534,
@@ -1626,11 +1626,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 19.1,
-   "life": 76.6,
+   "life": 74.4,
    "forest": 40.8,
    "capital": "Скопье",
    "peak": 2764,
@@ -1652,11 +1652,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 428.7,
-   "life": 76.5,
+   "life": 73.3,
    "forest": 30.2,
    "capital": "Бухарест",
    "peak": 2544,
@@ -1678,11 +1678,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2023,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 2.027,
-   "life": 85.8,
+   "life": 83.2,
    "forest": 16.3,
    "capital": "Сан-Марино",
    "peak": 756,
@@ -1704,11 +1704,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 100,
-   "life": 76,
+   "life": 74,
    "forest": 39.2,
    "capital": "Белград",
    "peak": 2658,
@@ -1730,11 +1730,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 154.5,
-   "life": 78.4,
+   "life": 74.9,
    "forest": 40.3,
    "capital": "Братислава",
    "peak": 2655,
@@ -1756,11 +1756,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 79.6,
-   "life": 82.3,
+   "life": 79,
    "forest": 61.8,
    "capital": "Любляна",
    "peak": 2864,
@@ -1782,11 +1782,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 214.2,
-   "life": 74.7,
+   "life": 69.2,
    "forest": 17.3,
    "capital": "Киев",
    "peak": 2061,
@@ -1824,11 +1824,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2024,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 17.8,
-   "life": 66.3,
+   "life": 60.2,
    "forest": 1.9,
    "capital": "Кабул",
    "peak": 7492,
@@ -1850,11 +1850,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 29.2,
-   "life": 78.3,
+   "life": 73.1,
    "forest": 11.8,
    "capital": "Ереван",
    "peak": 4090,
@@ -1876,11 +1876,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 75.9,
-   "life": 74.6,
+   "life": 69.9,
    "forest": 14.6,
    "capital": "Баку",
    "peak": 4466,
@@ -1902,11 +1902,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 49,
-   "life": 81.4,
+   "life": 78,
    "forest": 4.9,
    "capital": "Манама",
    "peak": 134,
@@ -1928,11 +1928,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 456.3,
-   "life": 74.9,
+   "life": 67.5,
    "forest": 14.4,
    "capital": "Дакка",
    "peak": 1054,
@@ -1942,10 +1942,10 @@
    "wikiEn": "Bangladesh",
    "wiki": {
     "ru": "Бангладеш, официальное название — Народная Республика Бангладеш — государство в Южной Азии. Население — 174 158 165 человек, территория — 148 460 км².",
-    "en": "Bangladesh, officially the People's Republic of Bangladesh, is a country in South Asia. It is the eighth-most populous country in the world with a population of almost 180 million within an area of 148,461 square kilometres."
+    "en": "Bangladesh, officially the People's Republic of Bangladesh, is a country in South Asia."
    },
-   "elo": 919,
-   "eloRank": 196,
+   "elo": 923,
+   "eloRank": 197,
    "lat": 23.729,
    "lng": 90.394
   },
@@ -1954,11 +1954,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 3.579,
-   "life": 73.3,
+   "life": 68.2,
    "forest": 70.4,
    "capital": "Тхимпху",
    "peak": 7570,
@@ -1970,8 +1970,8 @@
     "ru": "Бутан, официальное название — Королевство Бутан — государство в Южной Азии в Гималаях, расположенное между Индией и КНР.",
     "en": "Bhutan, officially the Kingdom of Bhutan, is a landlocked country in South Asia, located in the Eastern Himalayas, bordering China's Tibet Autonomous Region to the north and northwest and India to the south and southeast."
    },
-   "elo": 622,
-   "eloRank": 230,
+   "elo": 631,
+   "eloRank": 228,
    "lat": 27.471,
    "lng": 89.634
   },
@@ -1980,11 +1980,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 15,
-   "life": 75.5,
+   "life": 74.8,
    "forest": 72.1,
    "capital": "Бандар-Сери-Бегаван",
    "peak": 1850,
@@ -2006,11 +2006,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 51.3,
-   "life": 70.8,
+   "life": 66.7,
    "forest": 37.6,
    "capital": "Пномпень",
    "peak": 1813,
@@ -2023,7 +2023,7 @@
     "en": "Cambodia, officially the Kingdom of Cambodia, is a country in Mainland Southeast Asia."
    },
    "elo": 882,
-   "eloRank": 204,
+   "eloRank": 203,
    "lat": 11.57,
    "lng": 104.921
   },
@@ -2032,11 +2032,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 38.1,
-   "life": 74.7,
+   "life": 71.1,
    "forest": 44.6,
    "capital": "Тбилиси",
    "peak": 5193,
@@ -2058,11 +2058,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 362.7,
-   "life": 77.9,
+   "life": 74,
    "forest": 6.6,
    "capital": "Тегеран",
    "peak": 5628,
@@ -2084,11 +2084,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 254.4,
-   "life": 72.4,
+   "life": 67.8,
    "forest": 1.6,
    "capital": "Багдад",
    "peak": 3611,
@@ -2110,11 +2110,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 610.8,
-   "life": 83.2,
+   "life": 81.4,
    "forest": 6.8,
    "capital": "Иерусалим",
    "peak": 1208,
@@ -2136,11 +2136,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 61.6,
-   "life": 78,
+   "life": 73.7,
    "forest": 0.8,
    "capital": "Амман",
    "peak": 1854,
@@ -2162,11 +2162,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 157.2,
-   "life": 84.6,
+   "life": 77.4,
    "forest": 0.4,
    "capital": "Эль-Кувейт",
    "peak": 140,
@@ -2188,11 +2188,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 22.6,
-   "life": 72.4,
+   "life": 69.1,
    "forest": 6.5,
    "capital": "Бишкек",
    "peak": 7439,
@@ -2214,11 +2214,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 18.3,
-   "life": 69.2,
+   "life": 63,
    "forest": 56.6,
    "capital": "Вьентьян",
    "peak": 2819,
@@ -2240,11 +2240,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2024,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 26,
-   "life": 77.9,
+   "life": 77.3,
    "forest": 13.8,
    "capital": "Бейрут",
    "peak": 3088,
@@ -2266,11 +2266,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 472.2,
-   "life": 76.8,
+   "life": 75.3,
    "forest": 57.7,
    "capital": "Куала-Лумпур",
    "peak": 4095,
@@ -2292,11 +2292,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 7.741,
-   "life": 81.3,
+   "life": 76.4,
    "forest": 12.5,
    "capital": "Мале",
    "peak": 5,
@@ -2305,11 +2305,11 @@
    "wikiRu": "Мальдивы",
    "wikiEn": "Maldives",
    "wiki": {
-    "ru": "Мальдивы, официальное название — Мальдивская Республика — островное государство в Южной Азии, располагающееся на группе атоллов к югу от полуострова Индостан на стыке Аравийского и Лаккадивского морей Индийского океана.",
+    "ru": "Мальдивы, официальное название — Мальдивская Республика — островное государство в Южной Азии, располагающееся на скоплении атоллов к югу от полуострова Индостан на стыке Аравийского и Лаккадивского морей Индийского океана.",
     "en": "The Maldives, officially the Republic of Maldives, and historically known as the Maldive Islands, is an archipelagic country in South Asia, located in the Indian Ocean, near the southeastern boundary of the Arabian Sea."
    },
-   "elo": 793,
-   "eloRank": 210,
+   "elo": 769,
+   "eloRank": 211,
    "lat": 4.175,
    "lng": 73.508
   },
@@ -2318,11 +2318,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 25.4,
-   "life": 72.4,
+   "life": 68,
    "forest": 9.1,
    "capital": "Улан-Батор",
    "peak": 4374,
@@ -2344,11 +2344,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 81.7,
-   "life": 67.1,
+   "life": 63.1,
    "forest": 42,
    "capital": "Нейпьидо",
    "peak": 5881,
@@ -2370,11 +2370,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 45.5,
-   "life": 70.6,
+   "life": 66.6,
    "forest": 43.6,
    "capital": "Катманду",
    "peak": 8849,
@@ -2395,10 +2395,10 @@
    "pop": 26.571,
    "year": {
     "pop": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
-   "life": 73.7,
+   "life": 69.7,
    "forest": 64.1,
    "capital": "Пхеньян",
    "peak": 2744,
@@ -2420,11 +2420,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 109.6,
-   "life": 80.2,
+   "life": 76.6,
    "forest": 0,
    "capital": "Маскат",
    "peak": 3018,
@@ -2446,11 +2446,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 407.3,
-   "life": 67.8,
+   "life": 64.2,
    "forest": 4.1,
    "capital": "Исламабад",
    "peak": 8611,
@@ -2462,8 +2462,8 @@
     "ru": "Пакистан, полное название — Исламская Республика Пакистан — государство в Южной Азии, образованное в результате раздела территории Британской Индии в 1947 году.",
     "en": "Pakistan, officially the Islamic Republic of Pakistan, is a country in South Asia. It is the fifth-most populous country, with a population of over 241."
    },
-   "elo": 913,
-   "eloRank": 197,
+   "elo": 928,
+   "eloRank": 196,
    "lat": 33.699,
    "lng": 73.037
   },
@@ -2472,11 +2472,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 487.1,
-   "life": 69.9,
+   "life": 68.6,
    "forest": 24.8,
    "capital": "Манила",
    "peak": 2954,
@@ -2498,11 +2498,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 215.6,
-   "life": 82.5,
+   "life": 78.8,
    "forest": 0.1,
    "capital": "Доха",
    "peak": 103,
@@ -2524,11 +2524,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 1276.9,
-   "life": 79,
+   "life": 75.4,
    "forest": 1.3,
    "capital": "Эр-Рияд",
    "peak": 3207,
@@ -2550,11 +2550,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 603.9,
-   "life": 83.3,
+   "life": 81.2,
    "forest": 21.8,
    "capital": "Сингапур",
    "peak": 164,
@@ -2576,11 +2576,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 108.8,
-   "life": 77.7,
+   "life": 70.3,
    "forest": 34.4,
    "capital": "Шри-Джаяварденепура-Котте",
    "peak": 2524,
@@ -2592,8 +2592,8 @@
     "ru": "Шри-Ланка, официальное название — Демократическая Социалистическая Республика Шри-Ланка — островное государство в Южной Азии, на одноимённом острове у юго-восточного побережья Индостана.",
     "en": "Sri Lanka, officially the Democratic Socialist Republic of Sri Lanka, formerly known as Ceylon, is an island country in South Asia."
    },
-   "elo": 889,
-   "eloRank": 201,
+   "elo": 876,
+   "eloRank": 204,
    "lat": 6.9,
    "lng": 79.916
   },
@@ -2602,11 +2602,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2022,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 23.7,
-   "life": 72.6,
+   "life": 73.5,
    "forest": 2.9,
    "capital": "Дамаск",
    "peak": 2814,
@@ -2628,11 +2628,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 17.7,
-   "life": 71.9,
+   "life": 68.2,
    "forest": 3.1,
    "capital": "Душанбе",
    "peak": 7495,
@@ -2654,11 +2654,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 1.902,
-   "life": 67.9,
+   "life": 63.3,
    "forest": 71,
    "capital": "Дили",
    "peak": 2963,
@@ -2680,11 +2680,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 49.8,
-   "life": 70.2,
+   "life": 68.2,
    "forest": 5,
    "capital": "Ашхабад",
    "peak": 3139,
@@ -2706,11 +2706,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2024,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 552.3,
-   "life": 83.1,
+   "life": 81.7,
    "forest": 4.6,
    "capital": "Абу-Даби",
    "peak": 1911,
@@ -2732,11 +2732,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 147,
-   "life": 72.5,
+   "life": 69.5,
    "forest": 8.8,
    "capital": "Ташкент",
    "peak": 4643,
@@ -2746,7 +2746,7 @@
    "wikiEn": "Uzbekistan",
    "wiki": {
     "ru": "Узбекистан, официальное название — Республика Узбекистан — государство, расположенное в центральной части Средней Азии. Является нейтральным государством. Площадь — 448 924 км².",
-    "en": "Uzbekistan, officially the Republic of Uzbekistan, formerly known as Uzbekia, is a sovereign, doubly landlocked country located in Central Asia."
+    "en": "Uzbekistan, officially the Republic of Uzbekistan, is a sovereign, doubly landlocked country located in Central Asia."
    },
    "elo": 1645,
    "eloRank": 55,
@@ -2758,11 +2758,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2018,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 21.6,
-   "life": 69.4,
+   "life": 66.9,
    "forest": 1,
    "capital": "Аден",
    "peak": 3666,
@@ -2784,11 +2784,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 17.2,
-   "life": 69.2,
+   "life": 72.3,
    "forest": 1.8,
    "capital": "Восточный Иерусалим",
    "peak": 1026,
@@ -2810,11 +2810,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 6.198,
-   "life": 67.5,
+   "life": 66.3,
    "forest": 61.7,
    "capital": "Сува",
    "peak": 1324,
@@ -2827,7 +2827,7 @@
     "en": "Fiji, officially the Republic of Fiji, is an archipelagic country in the Melanesia region of Oceania, in the South Pacific Ocean. It lies about 1,100 nautical miles north-northeast of New Zealand."
    },
    "elo": 1136,
-   "eloRank": 167,
+   "eloRank": 168,
    "lat": -18.133,
    "lng": 178.433
   },
@@ -2836,11 +2836,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 0.349,
-   "life": 66.6,
+   "life": 65.8,
    "forest": 1.3,
    "capital": "Южная Тарава",
    "peak": 81,
@@ -2862,11 +2862,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 0.308,
-   "life": 67.1,
+   "life": 64.4,
    "forest": 53.6,
    "capital": "Маджуро",
    "peak": 10,
@@ -2888,11 +2888,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 0.502,
-   "life": 67.4,
+   "life": 64.9,
    "forest": 92.1,
    "capital": "Паликир",
    "peak": 791,
@@ -2914,11 +2914,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2023
    },
    "gdp": 0.176,
-   "life": 62.3,
+   "life": 59.9,
    "forest": 0,
    "capital": "Ярен",
    "peak": 71,
@@ -2938,11 +2938,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 0.345,
-   "life": 69.4,
+   "life": 68,
    "forest": 90.8,
    "capital": "Нгерулмуд",
    "peak": 242,
@@ -2964,11 +2964,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 32.5,
-   "life": 66.3,
+   "life": 62.8,
    "forest": 75.2,
    "capital": "Порт-Морсби",
    "peak": 4509,
@@ -2990,11 +2990,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 1.288,
-   "life": 71.8,
+   "life": 69.5,
    "forest": 57.6,
    "capital": "Апиа",
    "peak": 1858,
@@ -3016,11 +3016,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 1.75,
-   "life": 70.7,
+   "life": 68.4,
    "forest": 89.8,
    "capital": "Хониара",
    "peak": 2335,
@@ -3042,11 +3042,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 0.679,
-   "life": 73.1,
+   "life": 70.9,
    "forest": 12.1,
    "capital": "Нукуалофа",
    "peak": 1030,
@@ -3068,11 +3068,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 0.057,
-   "life": 67.3,
+   "life": 64.7,
    "forest": 39.6,
    "capital": "Фунафути",
    "peak": 5,
@@ -3094,11 +3094,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 1.354,
-   "life": 71.7,
+   "life": 69.4,
    "forest": 74.6,
    "capital": "Порт-Вила",
    "peak": 1879,
@@ -3120,11 +3120,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 2.338,
-   "life": 77.8,
+   "life": 76.4,
    "forest": 17.9,
    "peak": 402,
    "peakRu": "Обама",
@@ -3136,7 +3136,7 @@
     "en": "Antigua and Barbuda is an archipelagic country in the Caribbean composed of Antigua, Barbuda, and dozens of other small islands."
    },
    "elo": 913,
-   "eloRank": 197,
+   "eloRank": 198,
    "capital": "Сент-Джонс",
    "lat": 17.121,
    "lng": -61.845
@@ -3146,11 +3146,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2024,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 15.8,
-   "life": 74.7,
+   "life": 73.5,
    "forest": 50.9,
    "capital": "Нассау",
    "peak": 63,
@@ -3172,11 +3172,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 8.017,
-   "life": 76.3,
+   "life": 75.5,
    "forest": 14.6,
    "capital": "Бриджтаун",
    "peak": 340,
@@ -3198,11 +3198,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 3.327,
-   "life": 73.7,
+   "life": 70.8,
    "forest": 58,
    "capital": "Бельмопан",
    "peak": 1124,
@@ -3224,11 +3224,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 102.9,
-   "life": 81,
+   "life": 79.4,
    "forest": 59.1,
    "capital": "Сан-Хосе",
    "peak": 3820,
@@ -3250,11 +3250,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 0.724,
-   "life": 71.3,
+   "life": 71.8,
    "forest": 76.4,
    "capital": "Розо",
    "peak": 1447,
@@ -3267,7 +3267,7 @@
     "en": "Dominica officially the Commonwealth of Dominica, is an island country in the Caribbean. It is part of the Windward Islands chain in the Lesser Antilles archipelago in the Caribbean Sea."
    },
    "elo": 885,
-   "eloRank": 203,
+   "eloRank": 202,
    "lat": 15.3,
    "lng": -61.383
   },
@@ -3276,11 +3276,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 127.4,
-   "life": 73.9,
+   "life": 71.6,
    "forest": 46.7,
    "capital": "Санто-Доминго",
    "peak": 3101,
@@ -3302,11 +3302,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 36.7,
-   "life": 72.3,
+   "life": 70.4,
    "forest": 33,
    "capital": "Сан-Сальвадор",
    "peak": 2730,
@@ -3328,11 +3328,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 1.42,
-   "life": 75.4,
+   "life": 74.6,
    "forest": 51.5,
    "capital": "Сент-Джорджес",
    "peak": 840,
@@ -3344,7 +3344,7 @@
     "ru": "Гренада — островное государство на юго-востоке Карибского моря, занимает остров Гренада и южную часть островов Гренадины в группе Малых Антильских островов, в 120 км к северу от Тринидада.",
     "en": "Grenada is an archipelagic country of the West Indies in the eastern Caribbean Sea."
    },
-   "elo": 999,
+   "elo": 998,
    "eloRank": 188,
    "lat": 12.053,
    "lng": -61.753
@@ -3354,11 +3354,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 123.3,
-   "life": 72.7,
+   "life": 69.7,
    "forest": 33.1,
    "capital": "Гватемала",
    "peak": 4203,
@@ -3380,11 +3380,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 32.1,
-   "life": 65.1,
+   "life": 61.7,
    "forest": 13.5,
    "capital": "Порт-о-Пренс",
    "peak": 2674,
@@ -3406,11 +3406,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 39.6,
-   "life": 73,
+   "life": 69.8,
    "forest": 52.8,
    "capital": "Тегусигальпа",
    "peak": 2849,
@@ -3432,11 +3432,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2023
    },
    "gdp": 22.2,
-   "life": 75.1,
+   "life": 71.5,
    "forest": 25.8,
    "capital": "Манагуа",
    "peak": 2107,
@@ -3458,11 +3458,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 90.5,
-   "life": 79.8,
+   "life": 76.2,
    "forest": 62.2,
    "capital": "Панама",
    "peak": 3475,
@@ -3484,11 +3484,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 1.184,
-   "life": 72.3,
+   "life": 71.5,
    "forest": 42.1,
    "capital": "Бастер",
    "peak": 1156,
@@ -3510,11 +3510,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 2.656,
-   "life": 72.8,
+   "life": 72.9,
    "forest": 53.8,
    "capital": "Кастри",
    "peak": 952,
@@ -3536,11 +3536,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 1.255,
-   "life": 71.4,
+   "life": 70.7,
    "forest": 73.4,
    "capital": "Кингстаун",
    "peak": 1220,
@@ -3562,11 +3562,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 25.9,
-   "life": 73.6,
+   "life": 71.4,
    "forest": 44.2,
    "capital": "Порт-оф-Спейн",
    "peak": 940,
@@ -3588,11 +3588,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 64.8,
-   "life": 68.7,
+   "life": 65.7,
    "forest": 50.2,
    "capital": "Сукре",
    "peak": 6542,
@@ -3614,11 +3614,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 130.3,
-   "life": 77.6,
+   "life": 74.9,
    "forest": 49.7,
    "capital": "Кито",
    "peak": 6263,
@@ -3640,11 +3640,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 27.1,
-   "life": 70.3,
+   "life": 66,
    "forest": 87.1,
    "capital": "Джорджтаун",
    "peak": 2810,
@@ -3666,11 +3666,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 49.3,
-   "life": 74,
+   "life": 72.3,
    "forest": 36.5,
    "capital": "Асунсьон",
    "peak": 842,
@@ -3692,11 +3692,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 334.9,
-   "life": 77.9,
+   "life": 72.6,
    "forest": 52.7,
    "capital": "Лима",
    "peak": 6768,
@@ -3718,11 +3718,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 4.524,
-   "life": 73.8,
+   "life": 69.3,
    "forest": 91.5,
    "capital": "Парамарибо",
    "peak": 1280,
@@ -3744,11 +3744,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 85.3,
-   "life": 78.3,
+   "life": 76.7,
    "forest": 11.5,
    "capital": "Монтевидео",
    "peak": 514,
@@ -3758,7 +3758,7 @@
    "wikiEn": "Uruguay",
    "wiki": {
     "ru": "Уругвай, принятое в русском языке официальное название — Восточная Республика Уругвай — государство в юго-восточной части Южной Америки, на побережье Атлантического океана.",
-    "en": "Uruguay, officially the Oriental Republic of Uruguay, is a country in southeastern South America."
+    "en": "Uruguay, officially the Oriental Republic of Uruguay,is a country in southeastern South America."
    },
    "elo": 1851,
    "eloRank": 19,
@@ -3770,11 +3770,11 @@
    "year": {
     "pop": 2025,
     "gdp": 2025,
-    "life": 2024,
+    "life": 2009,
     "forest": 2024
    },
    "gdp": 99.7,
-   "life": 72.7,
+   "life": 72.8,
    "forest": 53.4,
    "capital": "Каракас",
    "peak": 4978,
