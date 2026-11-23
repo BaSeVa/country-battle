@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-23",
  "sources": {
   "restcountries": {
    "ok": false,
@@ -7,7 +7,7 @@
   },
   "worldbank:pop": {
    "ok": true,
-   "n": 144
+   "n": 720
   },
   "worldbank:gdp": {
    "ok": true,
@@ -36,9 +36,9 @@
  },
  "countries": {
   "ru": {
-   "pop": 143.5133,
+   "pop": 144.7468,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -56,15 +56,15 @@
     "ru": "Россия, или Российская Федерация, — государство в Восточной Европе и Северной Азии. Россия — крупнейшее государство в мире, её территория в международно признанных границах составляет 17 098 246 км².",
     "en": "Russia, or the Russian Federation, is a country in Eastern Europe and North Asia. It is the largest country in the world, spanning eleven time zones and sharing land borders with fourteen countries."
    },
-   "elo": 1787,
-   "eloRank": 27,
+   "elo": 1796,
+   "eloRank": 26,
    "lat": 55.751,
    "lng": 37.618
   },
   "us": {
-   "pop": 341.7849,
+   "pop": 332.1002,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -82,15 +82,15 @@
     "ru": "Соединённые Штаты Америки — государство в Северной Америке площадью — 9 831 513 км².",
     "en": "The United States of America, also known as the United States or America, is a country primarily located in North America. It is a federal republic consisting of 50 states and a federal capital district, Washington, D.C."
    },
-   "elo": 1803,
+   "elo": 1810,
    "eloRank": 24,
    "lat": 38.895,
    "lng": -77.037
   },
   "cn": {
-   "pop": 1406.585,
+   "pop": 1412.36,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -108,15 +108,15 @@
     "ru": "Китай, официальное название — Китайская Народная Республика, сокращённо — КНР — государство в Восточной Азии. Поэтическое название — Поднебесная.",
     "en": "China, officially the People's Republic of China, is a country in East Asia. It is divided into 33 province-level divisions, including two special administrative regions."
    },
-   "elo": 1359,
+   "elo": 1354,
    "eloRank": 114,
    "lat": 39.904,
    "lng": 116.408
   },
   "jp": {
-   "pop": 123.3667,
+   "pop": 125.6816,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -134,15 +134,15 @@
     "ru": "Япония, официальное название — Государство Япония, — островное государство в Восточной Азии. Находится в Тихом океане к востоку от Японского моря, Китая, Северной и Южной Кореи, России.",
     "en": "Japan is an island country in East Asia."
    },
-   "elo": 1916,
-   "eloRank": 13,
+   "elo": 1898,
+   "eloRank": 15,
    "lat": 35.689,
    "lng": 139.692
   },
   "br": {
-   "pop": 212.8124,
+   "pop": 209.5503,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -158,17 +158,17 @@
    "wikiEn": "Brazil",
    "wiki": {
     "ru": "Бразилия, официально — Федеративная Республика Бразилия или Федеративная Республика Бразилии — суверенное государство в Южной Америке.",
-    "en": "Brazil, officially the Federative Republic of Brazil, is the largest country in South America. It is also the world's fifth-largest country by area and the seventh-largest by population, with over 214 million people."
+    "en": "Brazil, officially the Federative Republic of Brazil, is the largest country in South America, the world's fifth-largest country by area, and the seventh-largest country by population, with over 214 million people."
    },
-   "elo": 1982,
-   "eloRank": 9,
+   "elo": 1983,
+   "eloRank": 8,
    "lat": -15.794,
    "lng": -47.883
   },
   "in": {
-   "pop": 1463.8655,
+   "pop": 1414.2039,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -186,15 +186,15 @@
     "ru": "Индия, официальное название — Республика Индия — государство, расположенное в Южной Азии.",
     "en": "India, officially the Republic of India, is a country in South Asia. It is the world's seventh-largest country by area and its most populous."
    },
-   "elo": 1146,
-   "eloRank": 167,
+   "elo": 1156,
+   "eloRank": 163,
    "lat": 28.614,
    "lng": 77.209
   },
   "de": {
-   "pop": 83.4912,
+   "pop": 83.1961,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -212,15 +212,15 @@
     "ru": "Германия, полное официальное название — Федеративная Республика Германия — государство в Центральной Европе со столицей в Берлине. Расположенная в центре Европы, Германия имеет выход к Балтийскому и Северному морям.",
     "en": "Germany, officially the Federal Republic of Germany, is a country in Western and Central Europe. It lies between the Baltic Sea and the North Sea to the north with the Alps to the south."
    },
-   "elo": 1916,
-   "eloRank": 13,
+   "elo": 1953,
+   "eloRank": 10,
    "lat": 52.517,
    "lng": 13.383
   },
   "fr": {
-   "pop": 68.7203,
+   "pop": 67.8428,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -244,9 +244,9 @@
    "lng": 2.352
   },
   "it": {
-   "pop": 58.9157,
+   "pop": 59.1332,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -265,14 +265,14 @@
     "en": "Italy, officially the Italian Republic, is a country in Southern and Western Europe."
    },
    "elo": 1925,
-   "eloRank": 11,
+   "eloRank": 13,
    "lat": 41.893,
    "lng": 12.483
   },
   "gb": {
-   "pop": 69.487,
+   "pop": 66.978,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -296,9 +296,9 @@
    "lng": -0.127
   },
   "es": {
-   "pop": 49.3551,
+   "pop": 47.4438,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -322,9 +322,9 @@
    "lng": -3.703
   },
   "ca": {
-   "pop": 41.6517,
+   "pop": 38.2399,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -342,15 +342,15 @@
     "ru": "Канада — государство в Северной Америке, крупнейшее по площади на этом континенте и второе по площади в мире. По численности населения 36-е государство в мире. Плотность населения является одной из самых низких в мире.",
     "en": "Canada is a country in North America."
    },
-   "elo": 1753,
-   "eloRank": 30,
+   "elo": 1762,
+   "eloRank": 29,
    "lat": 45.425,
    "lng": -75.695
   },
   "mx": {
-   "pop": 131.9469,
+   "pop": 127.6481,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -368,15 +368,15 @@
     "ru": "Мексика, официально — Мексиканские Соединённые Штаты — государство в Северной Америке, на севере граничащее с Соединёнными Штатами Америки, на юго-востоке — с Белизом и Гватемалой.",
     "en": "Mexico, officially the United Mexican States, is a country in North America."
    },
-   "elo": 1837,
-   "eloRank": 22,
+   "elo": 1841,
+   "eloRank": 21,
    "lat": 19.354,
    "lng": -99.136
   },
   "eg": {
-   "pop": 118.366,
+   "pop": 110.957,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -394,15 +394,15 @@
     "ru": "Египет, официальное название — Арабская Республика Египет — трансконтинентальное государство, расположенное в Северной Африке и Юго-Западной Азии.",
     "en": "Egypt, officially the Arab Republic of Egypt, is a country spanning the northeast corner of Africa and southwest corner of Asia via the Sinai Peninsula."
    },
-   "elo": 1719,
-   "eloRank": 39,
+   "elo": 1703,
+   "eloRank": 41,
    "lat": 30.044,
    "lng": 31.236
   },
   "au": {
-   "pop": 27.6144,
+   "pop": 25.6854,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -420,15 +420,15 @@
     "ru": "Австралия, официальная форма — Австралийский Союз — государство в Южном полушарии, занимающее одноимённый материк, остров Тасмания и несколько других островов Индийского и Тихого океанов; является шестым государством по площади в мире.",
     "en": "Australia, officially the Commonwealth of Australia, is a country comprising the mainland of the Australian continent, the island of Tasmania and numerous smaller islands."
    },
-   "elo": 1794,
-   "eloRank": 25,
+   "elo": 1772,
+   "eloRank": 28,
    "lat": -35.293,
    "lng": 149.127
   },
   "kr": {
-   "pop": 51.6846,
+   "pop": 51.7695,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -446,15 +446,15 @@
     "ru": "Республика Корея — государство в Восточной Азии, широко известное под неофициальным названием Южная Корея.",
     "en": "South Korea, officially the Republic of Korea, is a country in East Asia. It extends over the southern half of the Korean Peninsula and includes the adjacent islands."
    },
-   "elo": 1717,
-   "eloRank": 40,
+   "elo": 1723,
+   "eloRank": 36,
    "lat": 37.56,
    "lng": 126.99
   },
   "ch": {
-   "pop": 9.0924,
+   "pop": 8.7045,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -472,15 +472,15 @@
     "ru": "Швейцария, официально — Швейцарская Конфедерация — государство в Центральной Европе, федеративная республика, состоящая из 26 кантонов с федеральными властями в Берне.",
     "en": "Switzerland, officially the Swiss Confederation, is a landlocked country located at the intersection of Central, Western, and Southern Europe."
    },
-   "elo": 1967,
-   "eloRank": 10,
+   "elo": 1976,
+   "eloRank": 9,
    "lat": 46.948,
    "lng": 7.447
   },
   "tr": {
-   "pop": 85.8786,
+   "pop": 84.1473,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -504,9 +504,9 @@
    "lng": 32.839
   },
   "kz": {
-   "pop": 20.8438,
+   "pop": 19.7436,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -521,18 +521,18 @@
    "wikiRu": "Казахстан",
    "wikiEn": "Kazakhstan",
    "wiki": {
-    "ru": "Казахстан, устар. Казакстан, официально — Республика Казахстан — государство в Центральной Азии и в Восточной Европе. Население — 20,5 млн чел., площадь территории — 2 724 910 км².",
+    "ru": "Казахстан, устар. — Казакстан, официально — Республика Казахстан — государство в Центральной Азии и в Восточной Европе. Население — 20,5 млн чел., площадь территории — 2 724 910 км².",
     "en": "Kazakhstan, officially the Republic of Kazakhstan, is a landlocked country situated primarily in Central Asia, with a portion of its territory extending into Eastern Europe."
    },
-   "elo": 1367,
-   "eloRank": 110,
+   "elo": 1377,
+   "eloRank": 108,
    "lat": 51.133,
    "lng": 71.433
   },
   "ar": {
-   "pop": 45.8514,
+   "pop": 45.3123,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -548,17 +548,17 @@
    "wikiEn": "Argentina",
    "wiki": {
     "ru": "Аргентина, официальное название — Аргентинская Республика — второе после Бразилии по территории и третье после Бразилии и Колумбии по населению государство Южной Америки, состоящее из 24 административных единиц: 23 провинций и федерального столичного округа Буэнос-Айрес",
-    "en": "Argentina, officially the Argentine Republic, is a country in the far south of South America."
+    "en": "Argentina, officially the Argentine Republic, is a country in the Southern Cone of South America."
    },
-   "elo": 2157,
+   "elo": 2158,
    "eloRank": 3,
    "lat": -34.6,
    "lng": -58.382
   },
   "ng": {
-   "pop": 237.5278,
+   "pop": 218.5293,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -576,15 +576,15 @@
     "ru": "Нигерия, полное название: Федеративная Республика Нигерия — государство в Западной Африке. Площадь территории Нигерии составляет 923 768 км2 — по этому показателю страна занимает 14-е место в Африке и 31-е — в мире.",
     "en": "Nigeria, officially the Federal Republic of Nigeria, is a country in West Africa between the Sahel to the north and the Gulf of Guinea in the Atlantic Ocean to the south. It covers an area of 923,769 square kilometres."
    },
-   "elo": 1714,
-   "eloRank": 41,
+   "elo": 1699,
+   "eloRank": 42,
    "lat": 9.056,
    "lng": 7.491
   },
   "gr": {
-   "pop": 10.414,
+   "pop": 10.5701,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -602,15 +602,15 @@
     "ru": "Греция, официально — Греческая Республика, — государство в Южной Европе на границе с Малой Азией. Население — 10,48 млн чел., площадь территории — 131 957 км².",
     "en": "Greece, officially the Hellenic Republic, is a country located mostly on the Balkan peninsula of Southeastern Europe, with thousands of islands extending geographically to Asia Minor. It has a population of around 10 million."
    },
-   "elo": 1788,
-   "eloRank": 26,
+   "elo": 1797,
+   "eloRank": 25,
    "lat": 37.984,
    "lng": 23.728
   },
   "nl": {
-   "pop": 18.0876,
+   "pop": 17.533,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -628,15 +628,15 @@
     "ru": "Королевство Нидерландов, существующее с 1815 года, — суверенное государство, в составе которого с 2010 года выделяются четыре страны: Нидерланды, Аруба, Кюрасао и Синт-Мартен.",
     "en": "The Kingdom of the Netherlands, commonly known simply as the Netherlands, is a sovereign state consisting of a collection of constituent territories united under the monarch of the Netherlands, who functions as head of state."
    },
-   "elo": 1990,
-   "eloRank": 8,
+   "elo": 1953,
+   "eloRank": 10,
    "lat": 52.367,
    "lng": 4.883
   },
   "pt": {
-   "pop": 10.8049,
+   "pop": 10.3618,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -654,15 +654,15 @@
     "ru": "Португалия, официальное название — Португальская Республика — государство в Юго-Западной Европе, самое западное государство в континентальной Европе. Площадь территории — 92 225 км², численность населения — 10 467 366 человек.",
     "en": "Portugal, officially the Portuguese Republic, is a country in Southwestern Europe. Mainland Portugal is located on the southwestern portion of the Iberian Peninsula, and bordered by Spain to the north and east."
    },
-   "elo": 1996,
+   "elo": 2005,
    "eloRank": 5,
    "lat": 38.708,
    "lng": -9.139
   },
   "pl": {
-   "pop": 36.4359,
+   "pop": 36.9816,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -680,15 +680,15 @@
     "ru": "Польша, официальное название — Республика Польша — государство в Центральной Европе.",
     "en": "Poland, officially the Republic of Poland, is a country in Central Europe."
    },
-   "elo": 1663,
+   "elo": 1664,
    "eloRank": 49,
    "lat": 52.23,
    "lng": 21.011
   },
   "fi": {
-   "pop": 5.6464,
+   "pop": 5.541,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -707,14 +707,14 @@
     "en": "Finland, officially the Republic of Finland, is a Nordic country in Northern Europe."
    },
    "elo": 1515,
-   "eloRank": 80,
+   "eloRank": 79,
    "lat": 60.171,
    "lng": 24.938
   },
   "no": {
-   "pop": 5.6109,
+   "pop": 5.4083,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -732,15 +732,15 @@
     "ru": "Норвегия, официальное название — Королевство Норвегия — государство в Северной Европе, располагающееся в западной части Скандинавского полуострова и на огромном количестве прилегающих мелких островов, а также на архипелаге Шпицберген, островах Ян-Майен и Медвежьем в Сев",
     "en": "Norway, officially the Kingdom of Norway, is a Nordic country comprising the western and northernmost parts of the Scandinavian Peninsula in Northern Europe, the remote Arctic island Jan Mayen and the archipelago of Svalbard."
    },
-   "elo": 1909,
-   "eloRank": 15,
+   "elo": 1935,
+   "eloRank": 12,
    "lat": 59.913,
    "lng": 10.739
   },
   "is": {
-   "pop": 0.3924,
+   "pop": 0.3725,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -758,15 +758,15 @@
     "ru": "Исландия — островное государство, расположенное на западе Северной Европы в северной части Атлантического океана. На севере и северо-востоке омывается Северным Ледовитым океаном.",
     "en": "Iceland is a Nordic island country between the Arctic Ocean and the North Atlantic Ocean, located on the Mid-Atlantic Ridge between Europe and North America. It is Europe's westernmost and most sparsely populated country."
    },
-   "elo": 1632,
-   "eloRank": 59,
+   "elo": 1639,
+   "eloRank": 61,
    "lat": 64.147,
    "lng": -21.935
   },
   "ie": {
-   "pop": 5.4844,
+   "pop": 5.1106,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -784,15 +784,15 @@
     "ru": "Ирландия — островное государство в Северной Европе, занимающее большую часть острова Ирландия. На севере граничит с Северной Ирландией. Площадь — 70,2 тыс. км².",
     "en": "Ireland, also known as the Republic of Ireland, is a country in Northwestern Europe. It consists of 26 of the 32 counties of the island of Ireland, with a population of about 5.5 million."
    },
-   "elo": 1703,
-   "eloRank": 43,
+   "elo": 1728,
+   "eloRank": 34,
    "lat": 53.35,
    "lng": -6.26
   },
   "se": {
-   "pop": 10.5966,
+   "pop": 10.4158,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -810,15 +810,15 @@
     "ru": "Швеция, официальное название — Королевство Швеция — государство в Северной Европе на Скандинавском полуострове.",
     "en": "Sweden, formally the Kingdom of Sweden, is a Nordic country located on the Scandinavian Peninsula in Northern Europe."
    },
-   "elo": 1784,
-   "eloRank": 28,
+   "elo": 1783,
+   "eloRank": 27,
    "lat": 59.329,
    "lng": 18.069
   },
   "vn": {
-   "pop": 101.5985,
+   "pop": 98.9351,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -836,15 +836,15 @@
     "ru": "Вьетнам, полная официальная форма — Социалистическая Республика Вьетнам — государство в Юго-Восточной Азии на полуострове Индокитай.",
     "en": "Vietnam, officially the Socialist Republic of Viet Nam, is a country at the eastern edge of Mainland Southeast Asia."
    },
-   "elo": 1400,
-   "eloRank": 101,
+   "elo": 1378,
+   "eloRank": 106,
    "lat": 21.025,
    "lng": 105.841
   },
   "th": {
-   "pop": 71.6199,
+   "pop": 71.7273,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -862,15 +862,15 @@
     "ru": "Таиланд, официальное название — Королевство Таиланд — государство в Юго-Восточной Азии, расположенное в юго-западной части полуострова Индокитай и в северной части полуострова Малакка.",
     "en": "Thailand, officially the Kingdom of Thailand, and formerly known as Siam, is a country located in Mainland Southeast Asia."
    },
-   "elo": 1379,
-   "eloRank": 106,
+   "elo": 1394,
+   "eloRank": 103,
    "lat": 13.75,
    "lng": 100.517
   },
   "id": {
-   "pop": 285.7212,
+   "pop": 276.7581,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -894,9 +894,9 @@
    "lng": 106.827
   },
   "za": {
-   "pop": 64.7473,
+   "pop": 61.5026,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -914,15 +914,15 @@
     "ru": "Южно-Африканская Республика — государство на юге Африки. На севере граничит с Намибией, Ботсваной и Зимбабве, на северо-востоке — с Мозамбиком и Эсватини. Внутри территории ЮАР находится государство-анклав Лесото.",
     "en": "South Africa, officially the Republic of South Africa, is the southernmost country in Africa."
    },
-   "elo": 1580,
-   "eloRank": 66,
+   "elo": 1593,
+   "eloRank": 64,
    "lat": -33.925,
    "lng": 18.424
   },
   "ke": {
-   "pop": 57.5325,
+   "pop": 53.2192,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -940,15 +940,15 @@
     "ru": "Кения, официальное название — Республика Кения — государство в Восточной Африке. Является бывшей колонией Великобритании, получившей независимость 12 декабря 1963 года. Входит в Содружество наций.",
     "en": "Kenya, officially the Republic of Kenya, is a country located in East Africa. With an estimated population of more than 54."
    },
-   "elo": 1360,
-   "eloRank": 113,
+   "elo": 1347,
+   "eloRank": 118,
    "lat": -1.286,
    "lng": 36.817
   },
   "jm": {
-   "pop": 2.8371,
+   "pop": 2.8377,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -966,15 +966,15 @@
     "ru": "Ямайка — островное государство в составе Британского содружества в Вест-Индии. Расположена в Карибском море, к югу от Кубы, к западу от Гаити.",
     "en": "Jamaica is an island country in the Caribbean, covering 10,991 square kilometres. It is the third-largest island in the Greater Antilles and the Caribbean, after Cuba and Hispaniola."
    },
-   "elo": 1574,
+   "elo": 1570,
    "eloRank": 68,
    "lat": 17.971,
    "lng": -76.793
   },
   "cl": {
-   "pop": 19.8599,
+   "pop": 19.4563,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -992,15 +992,15 @@
     "ru": "Чили, официальное название — Республика Чили — государство на юго-западе Южной Америки, занимающее длинную узкую полосу земли между Тихим океаном и Андами.",
     "en": "Chile, officially the Republic of Chile, is a country in the Southern Cone of southwestern South America."
    },
-   "elo": 1721,
-   "eloRank": 38,
+   "elo": 1726,
+   "eloRank": 35,
    "lat": -33.437,
    "lng": -70.65
   },
   "co": {
-   "pop": 53.4256,
+   "pop": 51.1882,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1018,15 +1018,15 @@
     "ru": "Колумбия — государство на северо-западе Южной Америки, с территориями в Центральной Америке. Столица — Богота. Граничит с Бразилией и Венесуэлой на востоке, на юге — с Эквадором и Перу, на западе — с Панамой.",
     "en": "Colombia, officially the Republic of Colombia, is a country located in South America, with insular regions in North America."
    },
-   "elo": 1992,
+   "elo": 1987,
    "eloRank": 7,
    "lat": 4.61,
    "lng": -74.082
   },
   "cu": {
-   "pop": 10.9372,
+   "pop": 11.1222,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2020,
     "life": 2024,
     "forest": 2024
@@ -1036,7 +1036,7 @@
    "forest": 34.9,
    "capital": "Гавана",
    "peak": 1974,
-   "peakRu": "Пик Туркино",
+   "peakRu": "Туркино",
    "peakEn": "Pico Turquino",
    "wikiRu": "Куба",
    "wikiEn": "Cuba",
@@ -1044,15 +1044,15 @@
     "ru": "Куба, официальное название — Республика Куба — островное государство, расположенное в Латинской Америке, в Карибском бассейне. Включает острова Куба, Хувентуд и более чем 1 600 мелких островов группы Больших Антильских островов.",
     "en": "Cuba, officially the Republic of Cuba, is an island country in the Caribbean. It comprises the eponymous main island as well as 4,195 islands, islets, and cays."
    },
-   "elo": 1250,
-   "eloRank": 149,
+   "elo": 1263,
+   "eloRank": 148,
    "lat": 23.137,
    "lng": -82.359
   },
   "nz": {
-   "pop": 5.3247,
+   "pop": 5.0846,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1071,14 +1071,14 @@
     "en": "New Zealand is an island country in the southwestern Pacific Ocean. It comprises two main landmasses—the North Island and the South Island —and over 700 smaller islands."
    },
    "elo": 1563,
-   "eloRank": 72,
+   "eloRank": 71,
    "lat": -41.289,
    "lng": 174.777
   },
   "al": {
-   "pop": 2.3496,
+   "pop": 2.4898,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1102,9 +1102,9 @@
    "lng": 19.818
   },
   "ad": {
-   "pop": 0.0829,
+   "pop": 0.0784,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1122,15 +1122,15 @@
     "ru": "Андорра, полное официальное название — Княжество Андорра — княжество, одно из карликовых государств Европы, не имеющее выхода к морю и расположенное в восточных Пиренеях между Францией и Испанией, ассоциированное с ними, но не входящее в ЕС.",
     "en": "Andorra, officially the Principality of Andorra, is a landlocked country on the Iberian Peninsula, in the eastern Pyrenees in southwestern Europe, bordered by France to the north and Spain to the south."
    },
-   "elo": 1076,
-   "eloRank": 175,
+   "elo": 1067,
+   "eloRank": 177,
    "lat": 42.507,
    "lng": 1.522
   },
   "at": {
-   "pop": 9.2082,
+   "pop": 8.9558,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1148,15 +1148,15 @@
     "ru": "Австрия, полная официальная форма — Австрийская Республика — государство в Центральной Европе. Федерация, состоящая из девяти земель, столицей которых является Вена. Население составляет 9,2 млн человек, площадь — 83 879 км².",
     "en": "Austria, formally the Republic of Austria, is a landlocked country in Central Europe, lying in the Eastern Alps. It is a federation of nine states, of which the capital Vienna is the most populous city and state."
    },
-   "elo": 1849,
-   "eloRank": 20,
+   "elo": 1838,
+   "eloRank": 22,
    "lat": 48.208,
    "lng": 16.372
   },
   "by": {
-   "pop": 9.086,
+   "pop": 9.3026,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1175,14 +1175,14 @@
     "en": "Belarus, officially the Republic of Belarus, is a landlocked country in Eastern Europe. It is bordered by Russia to the east and northeast, Ukraine to the south, Poland to the west, and Lithuania and Latvia to the northwest."
    },
    "elo": 1517,
-   "eloRank": 79,
+   "eloRank": 78,
    "lat": 53.902,
    "lng": 27.562
   },
   "be": {
-   "pop": 11.9418,
+   "pop": 11.5862,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1206,9 +1206,9 @@
    "lng": 4.352
   },
   "ba": {
-   "pop": 3.1401,
+   "pop": 3.2449,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1226,15 +1226,15 @@
     "ru": "Босния и Герцеговина, аббревиатура — БиГ — государство в Юго-Восточной Европе, в западной части Балканского полуострова. На севере, западе и юге граничит с Хорватией, на востоке — с Сербией, на юго-востоке — с Черногорией.",
     "en": "Bosnia and Herzegovina, often referred to as Bosnia-Herzegovina or simply Bosnia, is a country in Southeastern Europe."
    },
-   "elo": 1662,
-   "eloRank": 50,
+   "elo": 1672,
+   "eloRank": 48,
    "lat": 43.856,
    "lng": 18.413
   },
   "bg": {
-   "pop": 6.4333,
+   "pop": 6.5073,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1252,15 +1252,15 @@
     "ru": "Болгария, официально — Республика Болгария — государство в Юго-Восточной Европе, в восточной части Балканского полуострова, занимающее 22 % его площади. Население составляет 6 447 710 чел., а территория — 110 993 км².",
     "en": "Bulgaria, officially the Republic of Bulgaria, is a country in Southeastern Europe. It is situated on the eastern portion of the Balkans directly south of the Danube river and west of the Black Sea."
    },
-   "elo": 1415,
-   "eloRank": 99,
+   "elo": 1401,
+   "eloRank": 101,
    "lat": 42.698,
    "lng": 23.322
   },
   "hr": {
-   "pop": 3.8762,
+   "pop": 3.879,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1284,9 +1284,9 @@
    "lng": 15.977
   },
   "cy": {
-   "pop": 1.3708,
+   "pop": 1.3173,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1305,14 +1305,14 @@
     "en": "Cyprus is an island in the Eastern Basin of the Mediterranean Sea. It is the third-largest island in the Mediterranean, after the Italian islands of Sicily and Sardinia, and the 80th-largest island in the world by area."
    },
    "elo": 1321,
-   "eloRank": 129,
+   "eloRank": 130,
    "lat": 35.173,
    "lng": 33.365
   },
   "cz": {
-   "pop": 10.8869,
+   "pop": 10.5058,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1336,9 +1336,9 @@
    "lng": 14.421
   },
   "dk": {
-   "pop": 6.0092,
+   "pop": 5.8567,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1356,15 +1356,15 @@
     "ru": "Дания, официально — Королевство Дания — государство в Северной Европе, старший член содружества Датского Соединённого королевства, в состав которого также входят Фарерские острова и автономная территория Гренландия.",
     "en": "Denmark is a Nordic country in Northern Europe."
    },
-   "elo": 1920,
-   "eloRank": 12,
+   "elo": 1894,
+   "eloRank": 16,
    "lat": 55.676,
    "lng": 12.569
   },
   "ee": {
-   "pop": 1.3665,
+   "pop": 1.3309,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1382,15 +1382,15 @@
     "ru": "Эстония, официальное название — Эстонская Республика — государство, расположенное в Северной Европе на восточном побережье Балтийского моря и омываемое водами Финского и Рижского заливов.",
     "en": "Estonia, officially the Republic of Estonia, is a country in the Baltic region of Northern Europe."
    },
-   "elo": 1430,
-   "eloRank": 96,
+   "elo": 1444,
+   "eloRank": 93,
    "lat": 59.437,
    "lng": 24.745
   },
   "hu": {
-   "pop": 9.5143,
+   "pop": 9.6309,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1408,15 +1408,15 @@
     "ru": "Венгрия — государство в Центральной Европе.",
     "en": "Hungary is a landlocked country in Central Europe."
    },
-   "elo": 1755,
-   "eloRank": 29,
+   "elo": 1746,
+   "eloRank": 32,
    "lat": 47.498,
    "lng": 19.041
   },
   "lv": {
-   "pop": 1.8478,
+   "pop": 1.8845,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1435,14 +1435,14 @@
     "en": "Latvia, officially the Republic of Latvia, is a country in the Baltic region of northern Europe. It is one of the three Baltic states, along with Estonia to the north and Lithuania to the south."
    },
    "elo": 1241,
-   "eloRank": 151,
+   "eloRank": 152,
    "lat": 56.948,
    "lng": 24.107
   },
   "li": {
-   "pop": 0.041,
+   "pop": 0.0392,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2024,
     "life": 2024,
     "forest": 2024
@@ -1460,15 +1460,15 @@
     "ru": "Лихтенштейн, официально — Княжество Лихтенштейн — карликовое государство в Центральной Европе. Площадь — 160,5 км². Население — чуть более 38 тысяч человек.",
     "en": "Liechtenstein, officially the Principality of Liechtenstein, is a doubly landlocked country in the Central European Alps."
    },
-   "elo": 882,
-   "eloRank": 201,
+   "elo": 880,
+   "eloRank": 203,
    "lat": 47.141,
    "lng": 9.522
   },
   "lt": {
-   "pop": 2.8888,
+   "pop": 2.8084,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1486,15 +1486,15 @@
     "ru": "Литва, официально Литовская Республика, — государство в Северной Европе. Площадь — 65 302 км². Протяжённость с севера на юг — 280 км, а с запада на восток — 370 км. Население составляет 2 895 058 человек.",
     "en": "Lithuania, officially the Republic of Lithuania, is a country in the Baltic region of Europe."
    },
-   "elo": 1280,
-   "eloRank": 143,
+   "elo": 1282,
+   "eloRank": 144,
    "lat": 54.687,
    "lng": 25.28
   },
   "lu": {
-   "pop": 0.687,
+   "pop": 0.6401,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1512,15 +1512,15 @@
     "ru": "Люксембург, официально — Великое Герцогство Люксембург — государство в Западной Европе. Граничит с Бельгией на севере, с Францией на западе и юге, с Германией на востоке. Не имеет выхода к морю.",
     "en": "Luxembourg, officially the Grand Duchy of Luxembourg, is a landlocked country in Western Europe. It is bordered by Belgium to the west and north, Germany to the east, and France to the south."
    },
-   "elo": 1359,
-   "eloRank": 114,
+   "elo": 1352,
+   "eloRank": 115,
    "lat": 49.611,
    "lng": 6.13
   },
   "mt": {
-   "pop": 0.5797,
+   "pop": 0.5182,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1538,15 +1538,15 @@
     "ru": "Мальта, официальное название — Республика Мальта — островное государство в Средиземном море, на Мальтийском архипелаге.",
     "en": "Malta, officially the Republic of Malta, is an island country located in the central Mediterranean Sea."
    },
-   "elo": 1258,
-   "eloRank": 147,
+   "elo": 1250,
+   "eloRank": 151,
    "lat": 35.898,
    "lng": 14.513
   },
   "md": {
-   "pop": 2.3605,
+   "pop": 2.5958,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1564,15 +1564,15 @@
     "ru": "Молдова, или Молдавия, официально — Республика Молдова — государство в Юго-Восточной Европе, граничащее с Украиной и Румынией.",
     "en": "Moldova, officially the Republic of Moldova, is a landlocked country in Eastern Europe, with an area of 33,843 km2 and a population of 2.38 million."
    },
-   "elo": 1308,
-   "eloRank": 135,
+   "elo": 1299,
+   "eloRank": 138,
    "lat": 47.023,
    "lng": 28.835
   },
   "mc": {
-   "pop": 0.0383,
+   "pop": 0.0385,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2024,
     "life": 2024,
     "forest": 2023
@@ -1591,14 +1591,14 @@
     "en": "Monaco, officially the Principality of Monaco, is a sovereign city-state and microstate in Western Europe."
    },
    "elo": 903,
-   "eloRank": 199,
+   "eloRank": 200,
    "lat": 43.731,
    "lng": 7.42
   },
   "me": {
-   "pop": 0.6231,
+   "pop": 0.6251,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1617,14 +1617,14 @@
     "en": "Montenegro is a country in Southeastern Europe, on the Balkan Peninsula. Its 25 municipalities have a total population of 633,158 people in an area of 13,883 km2."
    },
    "elo": 1525,
-   "eloRank": 77,
+   "eloRank": 76,
    "lat": 42.441,
    "lng": 19.263
   },
   "mk": {
-   "pop": 1.8209,
+   "pop": 1.8371,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1644,13 +1644,13 @@
    },
    "lat": 41.996,
    "lng": 21.432,
-   "elo": 1527,
-   "eloRank": 76
+   "elo": 1502,
+   "eloRank": 81
   },
   "ro": {
-   "pop": 19.0203,
+   "pop": 19.1221,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1668,15 +1668,15 @@
     "ru": "Румыния — государство в Юго-Восточной Европе, частично расположенное в северо-восточной части Балканского полуострова. На юго-востоке омывается водами Чёрного моря.",
     "en": "Romania is a country in Central and Southeastern Europe. It lies on the lower course of the Danube, north of the Balkan Peninsula, and on the northwestern shore of the Black Sea."
    },
-   "elo": 1576,
-   "eloRank": 67,
+   "elo": 1566,
+   "eloRank": 70,
    "lat": 44.413,
    "lng": 26.098
   },
   "sm": {
-   "pop": 0.0341,
+   "pop": 0.0343,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2023,
     "life": 2024,
     "forest": 2024
@@ -1700,9 +1700,9 @@
    "lng": 12.448
   },
   "rs": {
-   "pop": 6.5491,
+   "pop": 6.8343,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1720,15 +1720,15 @@
     "ru": "Сербия, официально — Республика Сербия — государство в юго-восточной Европе, в центральной части Балканского полуострова и частично Паннонской низменности, не имеющее выхода к морю.",
     "en": "Serbia, officially the Republic of Serbia, is a landlocked country in Southeastern and Central Europe."
    },
-   "elo": 1662,
-   "eloRank": 50,
+   "elo": 1653,
+   "eloRank": 52,
    "lat": 44.818,
    "lng": 20.457
   },
   "sk": {
-   "pop": 5.4138,
+   "pop": 5.4472,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1746,15 +1746,15 @@
     "ru": "Словакия, официальное название — Словацкая Республика — государство в Центральной Европе. Население составляет 5 449 270 человек, территория — 48 845 км². Занимает 112-е место в мире по численности населения и 127-е по территории.",
     "en": "Slovakia, officially the Slovak Republic, is a landlocked country in Central Europe. It is bordered by Poland to the north, Ukraine to the east, Hungary to the south, Austria to the west, and the Czech Republic to the northwest."
    },
-   "elo": 1662,
-   "eloRank": 50,
+   "elo": 1652,
+   "eloRank": 53,
    "lat": 48.152,
    "lng": 17.109
   },
   "si": {
-   "pop": 2.131,
+   "pop": 2.1081,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1772,15 +1772,15 @@
     "ru": "Словения, официальное название — Республика Словения — государство в Центральной Европе, расположенное на стыке Альп, Динарских гор, Паннонской низменности и Средиземноморья.",
     "en": "Slovenia, officially the Republic of Slovenia, is a country in Central Europe."
    },
-   "elo": 1726,
-   "eloRank": 36,
+   "elo": 1751,
+   "eloRank": 30,
    "lat": 46.051,
    "lng": 14.506
   },
   "ua": {
-   "pop": 38.9804,
+   "pop": 44.2986,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1798,8 +1798,8 @@
     "ru": "Украина — государство в Восточной и Центральной Европе. Население 37 860 221 человека. Общая площадь — 603 549 км²; крупнейшее по площади государство, полностью находящееся в Европе.",
     "en": "Ukraine is a country in Eastern Europe. It is the second-largest country in Europe after Russia, which borders it to the east and northeast."
    },
-   "elo": 1707,
-   "eloRank": 42,
+   "elo": 1721,
+   "eloRank": 38,
    "lat": 50.45,
    "lng": 30.524
   },
@@ -1820,9 +1820,9 @@
    "lng": 12.453
   },
   "af": {
-   "pop": 43.8441,
+   "pop": 40.0004,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2024,
     "life": 2024,
     "forest": 2024
@@ -1846,9 +1846,9 @@
    "lng": 69.166
   },
   "am": {
-   "pop": 3.0867,
+   "pop": 2.9623,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1863,18 +1863,18 @@
    "wikiRu": "Армения",
    "wikiEn": "Armenia",
    "wiki": {
-    "ru": "Армения, официальное название — Республика Армения — страна в Закавказье, расположенное на северо-востоке Армянского нагорья, на стыке Восточной Европы и Западной Азии. Выхода к морю не имеет.",
+    "ru": "Армения, официальное название — Республика Армения — государство в Закавказье, расположенное на северо-востоке Армянского нагорья, на стыке Восточной Европы и Западной Азии. Выхода к морю не имеет.",
     "en": "Armenia, officially the Republic of Armenia, is a landlocked country in the Armenian highlands of West Asia."
    },
    "elo": 1348,
-   "eloRank": 118,
+   "eloRank": 116,
    "lat": 40.181,
    "lng": 44.514
   },
   "az": {
-   "pop": 10.247,
+   "pop": 10.1378,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1892,15 +1892,15 @@
     "ru": "Азербайджан, официальное название — Азербайджанская Республика — государство в восточной части Закавказья на побережье Каспийского моря, относится к Передней Азии, а также, по мнению некоторых источников, частично к Восточной Европе.",
     "en": "Azerbaijan, officially the Republic of Azerbaijan, is a landlocked country at the boundary of Western Asia and Eastern Europe."
    },
-   "elo": 1331,
-   "eloRank": 124,
+   "elo": 1340,
+   "eloRank": 120,
    "lat": 40.367,
    "lng": 49.835
   },
   "bh": {
-   "pop": 1.6004,
+   "pop": 1.5044,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1918,15 +1918,15 @@
     "ru": "Бахрейн, официальное название — Королевство Бахрейн — суверенное островное государство в Персидском заливе, расположенное на небольшом архипелаге, который состоит из 51 естественного и 33 искусственных островов, сосредоточенных вокруг острова Бахрейн, который составляет",
     "en": "Bahrain, officially the Kingdom of Bahrain, is an island country in the eastern part of Arabian Peninsula in West Asia."
    },
-   "elo": 1332,
-   "eloRank": 123,
+   "elo": 1337,
+   "eloRank": 124,
    "lat": 26.217,
    "lng": 50.583
   },
   "bd": {
-   "pop": 175.6869,
+   "pop": 167.6589,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1945,14 +1945,14 @@
     "en": "Bangladesh, officially the People's Republic of Bangladesh, is a country in South Asia."
    },
    "elo": 919,
-   "eloRank": 197,
+   "eloRank": 198,
    "lat": 23.729,
    "lng": 90.394
   },
   "bt": {
-   "pop": 0.7967,
+   "pop": 0.7754,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -1970,15 +1970,15 @@
     "ru": "Бутан, официальное название — Королевство Бутан — государство в Южной Азии в Гималаях, расположенное между Индией и КНР.",
     "en": "Bhutan, officially the Kingdom of Bhutan, is a landlocked country in South Asia, located in the Eastern Himalayas, bordering China's Tibet Autonomous Region to the north and northwest and India to the south and southeast."
    },
-   "elo": 630,
+   "elo": 629,
    "eloRank": 229,
    "lat": 27.471,
    "lng": 89.634
   },
   "bn": {
-   "pop": 0.4663,
+   "pop": 0.4517,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2002,9 +2002,9 @@
    "lng": 114.917
   },
   "kh": {
-   "pop": 17.848,
+   "pop": 16.9743,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2023,14 +2023,14 @@
     "en": "Cambodia, officially the Kingdom of Cambodia, is a country in Mainland Southeast Asia."
    },
    "elo": 882,
-   "eloRank": 201,
+   "eloRank": 202,
    "lat": 11.57,
    "lng": 104.921
   },
   "ge": {
-   "pop": 3.9358,
+   "pop": 3.7086,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2048,15 +2048,15 @@
     "ru": "Грузия — государство, расположенное в западной части Закавказья на восточном побережье Чёрного моря. Относится к Восточной Европе и Передней Азии; рассматривается часто как страна на стыке Европы и Азии.",
     "en": "Georgia is a country in the Caucasus region on the east coast of the Black Sea. It is located at the intersection of Eastern Europe and West Asia and is generally regarded as part of Europe."
    },
-   "elo": 1598,
-   "eloRank": 64,
+   "elo": 1584,
+   "eloRank": 65,
    "lat": 41.723,
    "lng": 44.793
   },
   "ir": {
-   "pop": 92.4177,
+   "pop": 88.4555,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2074,15 +2074,15 @@
     "ru": "Иран, с 1979 года — Исламская Республика Иран, — государство в Передней Азии со столицей в Тегеране.",
     "en": "Iran, officially the Islamic Republic of Iran, and historically known as Persia, is a country in West Asia."
    },
-   "elo": 1748,
-   "eloRank": 32,
+   "elo": 1743,
+   "eloRank": 33,
    "lat": 35.689,
    "lng": 51.39
   },
   "iq": {
-   "pop": 47.0208,
+   "pop": 43.0712,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2100,15 +2100,15 @@
     "ru": "Ирак, официальное название — Республика Ирак — государство на Ближнем Востоке. Население, по оценочным данным на 2026 год, составляет более 48 миллионов человек. Территория — 437 072 км².",
     "en": "Iraq, officially the Republic of Iraq, is a country in West Asia."
    },
-   "elo": 1534,
+   "elo": 1539,
    "eloRank": 74,
    "lat": 33.315,
    "lng": 44.366
   },
   "il": {
-   "pop": 10.1228,
+   "pop": 9.3714,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2126,15 +2126,15 @@
     "ru": "Израиль, официальное название — Государство Израиль — государство на Ближнем Востоке. Население на 31 декабря 2024 года — 10,027 млн человек; территория — 22 072 км².",
     "en": "Israel, officially the State of Israel, is a country in the Southern Levant region of West Asia. It is bordered by Lebanon to the north, Syria to the northeast, Jordan to the east, and Egypt to the southwest."
    },
-   "elo": 1629,
+   "elo": 1640,
    "eloRank": 60,
    "lat": 31.777,
    "lng": 35.234
   },
   "jo": {
-   "pop": 11.5207,
+   "pop": 11.0664,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2152,15 +2152,15 @@
     "ru": "Иордания — государство на Ближнем Востоке.",
     "en": "Jordan, officially the Hashemite Kingdom of Jordan, is a country in the Southern Levant region of West Asia."
    },
-   "elo": 1622,
-   "eloRank": 62,
+   "elo": 1644,
+   "eloRank": 58,
    "lat": 31.95,
    "lng": 35.933
   },
   "kw": {
-   "pop": 4.8653,
+   "pop": 4.3609,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2178,15 +2178,15 @@
     "ru": "Кувейт, официально Государство Кувейт — государство в юго-западной Азии. Расположен на северной окраине Восточной Аравии и граничит с Ираком на севере и с Саудовской Аравией на юге.",
     "en": "Kuwait, officially the State of Kuwait, is a country in West Asia."
    },
-   "elo": 1311,
-   "eloRank": 134,
+   "elo": 1301,
+   "eloRank": 136,
    "lat": 29.375,
    "lng": 47.98
   },
   "kg": {
-   "pop": 7.3431,
+   "pop": 6.8512,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2204,15 +2204,15 @@
     "ru": "Кыргызстан, или Киргизия, официально — Кыргызская Республика, — государство в Центральной Азии, расположенное в западной и центральной частях горной системы Тянь-Шань и на Памиро-Алае.",
     "en": "Kyrgyzstan, officially the Kyrgyz Republic, formerly known as Kirghizia, is a landlocked country located in Central Asia, lying in the Tian Shan and Pamir mountain ranges."
    },
-   "elo": 1316,
-   "eloRank": 131,
+   "elo": 1338,
+   "eloRank": 121,
    "lat": 42.867,
    "lng": 74.567
   },
   "la": {
-   "pop": 7.873,
+   "pop": 7.4532,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2236,9 +2236,9 @@
    "lng": 102.63
   },
   "lb": {
-   "pop": 5.8494,
+   "pop": 5.7181,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2024,
     "life": 2024,
     "forest": 2024
@@ -2256,15 +2256,15 @@
     "ru": "Ливан, официальное название — Ливанская Республика — государство на Ближнем Востоке, расположенное в гористой местности на восточном берегу Средиземного моря. На востоке и севере граничит с Сирией, на юге — с Израилем.",
     "en": "Lebanon, officially the Lebanese Republic, is a country in the Levant region of West Asia."
    },
-   "elo": 1288,
-   "eloRank": 142,
+   "elo": 1296,
+   "eloRank": 140,
    "lat": 33.887,
    "lng": 35.513
   },
   "my": {
-   "pop": 35.9778,
+   "pop": 34.2824,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2282,15 +2282,15 @@
     "ru": "Малайзия — государство в Юго-Восточной Азии, территория — 330 803 км², состоящее из двух частей, разделённых Южно-Китайским морем — Западная Малайзия и Восточная Малайзия. Федеративная парламентская монархия.",
     "en": "Malaysia is a country in Southeast Asia."
    },
-   "elo": 1316,
-   "eloRank": 131,
+   "elo": 1327,
+   "eloRank": 128,
    "lat": 3.148,
    "lng": 101.695
   },
   "mv": {
-   "pop": 0.5297,
+   "pop": 0.5162,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2309,14 +2309,14 @@
     "en": "The Maldives, officially the Republic of Maldives, and historically known as the Maldive Islands, is an archipelagic country in South Asia, located in the Indian Ocean, near the southeastern boundary of the Arabian Sea."
    },
    "elo": 765,
-   "eloRank": 211,
+   "eloRank": 210,
    "lat": 4.175,
    "lng": 73.508
   },
   "mn": {
-   "pop": 3.569,
+   "pop": 3.3837,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2340,9 +2340,9 @@
    "lng": 106.906
   },
   "mm": {
-   "pop": 54.8506,
+   "pop": 53.3871,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2361,14 +2361,14 @@
     "en": "Myanmar, officially the Republic of the Union of Myanmar and also referred to as Burma, is a country in northwest Southeast Asia."
    },
    "elo": 1014,
-   "eloRank": 185,
+   "eloRank": 183,
    "lat": 19.748,
    "lng": 96.115
   },
   "np": {
-   "pop": 29.6181,
+   "pop": 29.475,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2387,14 +2387,14 @@
     "en": "Nepal is a landlocked country in South Asia. It is mainly situated in the Himalayas, but also includes parts of the Indo-Gangetic Plain."
    },
    "elo": 893,
-   "eloRank": 200,
+   "eloRank": 201,
    "lat": 27.71,
    "lng": 85.32
   },
   "kp": {
-   "pop": 26.571,
+   "pop": 26.2325,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "life": 2024,
     "forest": 2024
    },
@@ -2411,14 +2411,14 @@
     "en": "North Korea, officially the Democratic People's Republic of Korea, is a country in East Asia."
    },
    "elo": 1375,
-   "eloRank": 107,
+   "eloRank": 110,
    "lat": 39.017,
    "lng": 125.748
   },
   "om": {
-   "pop": 5.4947,
+   "pop": 4.5004,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2428,7 +2428,7 @@
    "forest": 0,
    "capital": "Маскат",
    "peak": 3018,
-   "peakRu": "Эш-Шам",
+   "peakRu": "Шемс",
    "peakEn": "Jebel Shams",
    "wikiRu": "Оман",
    "wikiEn": "Oman",
@@ -2442,9 +2442,9 @@
    "lng": 58.592
   },
   "pk": {
-   "pop": 255.2196,
+   "pop": 239.4778,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2462,15 +2462,15 @@
     "ru": "Пакистан, полное название — Исламская Республика Пакистан — государство в Южной Азии, образованное в результате раздела территории Британской Индии в 1947 году.",
     "en": "Pakistan, officially the Islamic Republic of Pakistan, is a country in South Asia. It is the fifth-most populous country, with a population of over 241."
    },
-   "elo": 954,
-   "eloRank": 193,
+   "elo": 944,
+   "eloRank": 195,
    "lat": 33.699,
    "lng": 73.037
   },
   "ph": {
-   "pop": 116.787,
+   "pop": 113.101,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2494,9 +2494,9 @@
    "lng": 120.977
   },
   "qa": {
-   "pop": 2.9722,
+   "pop": 2.5049,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2514,15 +2514,15 @@
     "ru": "Катар; араб. قَطَرْ‎, местн.; официально — Государство Катар, араб. دَوْلَةُ قَطَرْ‎ Даула Катар) — государство на Ближнем Востоке, расположенное на Катарском полуострове в восточной части Аравийского полуострова.",
     "en": "Qatar, officially the State of Qatar, is a country in West Asia."
    },
-   "elo": 1461,
-   "eloRank": 88,
+   "elo": 1455,
+   "eloRank": 89,
    "lat": 25.286,
    "lng": 51.529
   },
   "sa": {
-   "pop": 36.9736,
+   "pop": 30.7844,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2540,15 +2540,15 @@
     "ru": "Саудовская Аравия, официальное название — Королевство Саудовская Аравия — крупнейшее государство на Аравийском полуострове.",
     "en": "Saudi Arabia, officially the Kingdom of Saudi Arabia, is a country in West Asia that occupies the bulk of the Arabian Peninsula."
    },
-   "elo": 1652,
-   "eloRank": 54,
+   "elo": 1642,
+   "eloRank": 59,
    "lat": 24.638,
    "lng": 46.715
   },
   "sg": {
-   "pop": 6.1112,
+   "pop": 5.4536,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2566,15 +2566,15 @@
     "ru": "Сингапур, официальное название — Республика Сингапур — город-государство, расположенный на островах в Юго-Восточной Азии, отделённых от южной оконечности Малаккского полуострова узким Джохорским проливом.",
     "en": "Singapore, officially the Republic of Singapore, is an island country and city-state in Southeast Asia. Its territory comprises a main island, over 60 satellite islands and islets, and one outlying islet."
    },
-   "elo": 1147,
-   "eloRank": 166,
+   "elo": 1146,
+   "eloRank": 167,
    "lat": 1.3,
    "lng": 103.8
   },
   "lk": {
-   "pop": 21.756,
+   "pop": 22.156,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2598,9 +2598,9 @@
    "lng": 79.916
   },
   "sy": {
-   "pop": 25.6204,
+   "pop": 21.6288,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2022,
     "life": 2024,
     "forest": 2024
@@ -2618,15 +2618,15 @@
     "ru": "Сирия, официально — Сирийская Арабская Республика — государство на Ближнем Востоке. Граничит с Ливаном и Израилем на юго-западе, с Иорданией на юге, с Ираком на востоке и с Турцией на севере. Омывается Средиземным морем на западе.",
     "en": "Syria, officially the Syrian Arab Republic, is a country in West Asia located in the Eastern Mediterranean and the Levant."
    },
-   "elo": 1457,
-   "eloRank": 90,
+   "elo": 1450,
+   "eloRank": 91,
    "lat": 33.513,
    "lng": 36.292
   },
   "tj": {
-   "pop": 10.7867,
+   "pop": 9.9669,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2644,15 +2644,15 @@
     "ru": "Таджикистан, официальное название — Республика Таджикистан — государство в Центральной Азии, расположенное в предгорьях Памира и не имеющее выхода к морю. Это наименьшее по площади государство Средней Азии.",
     "en": "Tajikistan, officially the Republic of Tajikistan, is a landlocked country in Central Asia. Dushanbe, its capital, is its largest and most populous city, with a population of over 1.2 million."
    },
-   "elo": 1312,
-   "eloRank": 133,
+   "elo": 1297,
+   "eloRank": 139,
    "lat": 38.573,
    "lng": 68.786
   },
   "tl": {
-   "pop": 1.4185,
+   "pop": 1.3501,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2676,9 +2676,9 @@
    "lng": 125.578
   },
   "tm": {
-   "pop": 7.6188,
+   "pop": 7.092,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2697,14 +2697,14 @@
     "en": "Turkmenistan, formerly known as Turkmenia, is a landlocked country in Central Asia, bordered by Kazakhstan and Uzbekistan to the north, Afghanistan to the southeast, Iran to the south and southwest, and the Caspian Sea to the west."
    },
    "elo": 1209,
-   "eloRank": 157,
+   "eloRank": 156,
    "lat": 37.95,
    "lng": 58.383
   },
   "ae": {
-   "pop": 11.5131,
+   "pop": 9.5752,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2024,
     "life": 2024,
     "forest": 2024
@@ -2722,15 +2722,15 @@
     "ru": "Объединённые Арабские Эмираты — федеративное государство на Ближнем Востоке, состоящее из семи эмиратов, каждый из которых представляет собой государство — абсолютную монархию: Абу-Даби, Аджман, Дубай, Рас-эль-Хайма, Умм-эль-Кайвайн, Фуджейра и Шарджа.",
     "en": "The United Arab Emirates, also known simply as the Emirates, is a country in West Asia, situated at the eastern end of the Arabian Peninsula."
    },
-   "elo": 1570,
-   "eloRank": 69,
+   "elo": 1577,
+   "eloRank": 67,
    "lat": 24.451,
    "lng": 54.397
   },
   "uz": {
-   "pop": 37.0534,
+   "pop": 34.2437,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2748,15 +2748,15 @@
     "ru": "Узбекистан, официальное название — Республика Узбекистан — государство, расположенное в центральной части Средней Азии. Является нейтральным государством. Площадь — 448 924 км².",
     "en": "Uzbekistan, officially the Republic of Uzbekistan, is a sovereign, doubly landlocked country located in Central Asia."
    },
-   "elo": 1636,
+   "elo": 1646,
    "eloRank": 57,
    "lat": 41.311,
    "lng": 69.28
   },
   "ye": {
-   "pop": 41.7739,
+   "pop": 37.1402,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2018,
     "life": 2024,
     "forest": 2024
@@ -2774,15 +2774,15 @@
     "ru": "Йемен — государство в Юго-Западной Азии, расположенное на юге Аравийского полуострова. Оно граничит с Саудовской Аравией на севере и с Оманом на востоке.",
     "en": "Yemen, officially the Republic of Yemen, is a country in West Asia."
    },
-   "elo": 1224,
-   "eloRank": 153,
+   "elo": 1213,
+   "eloRank": 154,
    "lat": 12.8,
    "lng": 45.033
   },
   "ps": {
-   "pop": 5.4136,
+   "pop": 4.9227,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2790,7 +2790,7 @@
    "gdp": 17.2,
    "life": 69.2,
    "forest": 1.8,
-   "capital": "Рамалла",
+   "capital": "Восточный Иерусалим",
    "peak": 1026,
    "peakRu": "",
    "peakEn": "Mount Nabi Yunis",
@@ -2800,15 +2800,15 @@
     "ru": "Государство Палестина — частично признанное государство на Ближнем Востоке, занимающее часть территории исторической области Палестина.",
     "en": "Palestine, officially the State of Palestine, is a country in the Southern Levant region of West Asia."
    },
-   "elo": 1501,
+   "elo": 1493,
    "eloRank": 83,
-   "lat": 31.897,
-   "lng": 35.202
+   "lat": 31.783,
+   "lng": 35.234
   },
   "fj": {
-   "pop": 0.9332,
+   "pop": 0.9167,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2832,9 +2832,9 @@
    "lng": 178.44
   },
   "ki": {
-   "pop": 0.1365,
+   "pop": 0.1284,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2858,9 +2858,9 @@
    "lng": 172.967
   },
   "mh": {
-   "pop": 0.0363,
+   "pop": 0.0414,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2884,9 +2884,9 @@
    "lng": 171.38
   },
   "fm": {
-   "pop": 0.1137,
+   "pop": 0.1116,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2910,9 +2910,9 @@
    "lng": 158.185
   },
   "nr": {
-   "pop": 0.012,
+   "pop": 0.0117,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2023
@@ -2928,15 +2928,15 @@
    "wikiEn": "Nauru",
    "wiki": {
     "ru": "Науру, официально — Наоэро, официальное название — Республика Наоэро, — островное государство в Микронезии, в западной части Тихого океана.",
-    "en": "Nauru or Naoero, officially the Republic of Naoero, is an island country in Oceania, in the South Pacific Ocean."
+    "en": "Nauru, also known by its native name Naoero and officially as the Republic of Naoero, is an island country in Oceania, in the South Pacific Ocean."
    },
    "lat": -0.548,
    "lng": 166.921
   },
   "pw": {
-   "pop": 0.0177,
+   "pop": 0.0178,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2960,9 +2960,9 @@
    "lng": 134.624
   },
   "pg": {
-   "pop": 10.7628,
+   "pop": 10.0129,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -2981,14 +2981,14 @@
     "en": "Papua New Guinea, officially the Independent State of Papua New Guinea, is an island nation in Oceania that comprises the eastern half of the island of New Guinea and offshore islands in Melanesia, a region of the southwestern Pacific Ocean north of Australia."
    },
    "elo": 1112,
-   "eloRank": 171,
+   "eloRank": 172,
    "lat": -9.479,
    "lng": 147.149
   },
   "ws": {
-   "pop": 0.2193,
+   "pop": 0.2138,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3012,9 +3012,9 @@
    "lng": -171.833
   },
   "sb": {
-   "pop": 0.8386,
+   "pop": 0.7626,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3033,14 +3033,14 @@
     "en": "Solomon Islands is an archipelagic country consisting of six major islands and over 1,000 smaller islands in Melanesia, Oceania, to the north-east of Australia."
    },
    "elo": 1110,
-   "eloRank": 172,
+   "eloRank": 173,
    "lat": -9.433,
    "lng": 159.95
   },
   "to": {
-   "pop": 0.1037,
+   "pop": 0.1055,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3064,9 +3064,9 @@
    "lng": -175.202
   },
   "tv": {
-   "pop": 0.0095,
+   "pop": 0.0102,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3090,9 +3090,9 @@
    "lng": 179.117
   },
   "vu": {
-   "pop": 0.3352,
+   "pop": 0.3059,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3116,9 +3116,9 @@
    "lng": 168.317
   },
   "ag": {
-   "pop": 0.0942,
+   "pop": 0.0923,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3135,16 +3135,16 @@
     "ru": "Антигуа и Барбуда — государство на одноимённых островах и острове Редонда в группе Малых Антильских островов.",
     "en": "Antigua and Barbuda is an archipelagic country in the Caribbean composed of Antigua, Barbuda, and dozens of other small islands."
    },
-   "elo": 908,
-   "eloRank": 198,
+   "elo": 926,
+   "eloRank": 197,
    "capital": "Сент-Джонс",
    "lat": 17.121,
    "lng": -61.845
   },
   "bs": {
-   "pop": 0.403,
+   "pop": 0.3964,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2024,
     "life": 2024,
     "forest": 2024
@@ -3168,9 +3168,9 @@
    "lng": -77.339
   },
   "bb": {
-   "pop": 0.2826,
+   "pop": 0.2821,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3188,15 +3188,15 @@
     "ru": "Республика Барбадос — государство в Вест-Индии на одноимённом острове в группе Малых Антильских островов, на востоке Карибского моря.",
     "en": "Barbados is an island nation in the Atlantic Ocean. It is part of the Lesser Antilles of the West Indies and is the southernmost and easternmost island of the Caribbean region."
    },
-   "elo": 1003,
-   "eloRank": 187,
+   "elo": 982,
+   "eloRank": 190,
    "lat": 13.098,
    "lng": -59.617
   },
   "bz": {
-   "pop": 0.4229,
+   "pop": 0.3953,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3214,15 +3214,15 @@
     "ru": "Белиз — государство в Центральной Америке. До июня 1973 года носило название Британский Гондурас.",
     "en": "Belize is a country on the north-eastern coast of Central America. It is bordered by Mexico to the north, the Caribbean Sea to the east, and Guatemala to the west and south."
    },
-   "elo": 1015,
-   "eloRank": 184,
+   "elo": 990,
+   "eloRank": 189,
    "lat": 17.25,
    "lng": -88.767
   },
   "cr": {
-   "pop": 5.153,
+   "pop": 5.06,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3232,7 +3232,7 @@
    "forest": 59.1,
    "capital": "Сан-Хосе",
    "peak": 3820,
-   "peakRu": "Чиррипо",
+   "peakRu": "Чиррипо-Гранде",
    "peakEn": "Cerro Chirripó",
    "wikiRu": "Коста-Рика",
    "wikiEn": "Costa_Rica",
@@ -3241,14 +3241,14 @@
     "en": "Costa Rica, officially the Republic of Costa Rica, is a country in Central America."
    },
    "elo": 1583,
-   "eloRank": 65,
+   "eloRank": 66,
    "lat": 9.933,
    "lng": -84.08
   },
   "dm": {
-   "pop": 0.0659,
+   "pop": 0.0672,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3266,15 +3266,15 @@
     "ru": "Доминика, официальное название — Содружество Доминики — государство на одноимённом острове из группы Малых Антильских островов в Карибском море. К северо-западу от Доминики расположена Гваделупа, к юго-востоку — Мартиника.",
     "en": "Dominica officially the Commonwealth of Dominica, is an island country in the Caribbean. It is part of the Windward Islands chain in the Lesser Antilles archipelago in the Caribbean Sea."
    },
-   "elo": 875,
-   "eloRank": 203,
+   "elo": 906,
+   "eloRank": 199,
    "lat": 15.3,
    "lng": -61.383
   },
   "do": {
-   "pop": 11.5205,
+   "pop": 11.1235,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3284,7 +3284,7 @@
    "forest": 46.7,
    "capital": "Санто-Доминго",
    "peak": 3101,
-   "peakRu": "Пик Дуарте",
+   "peakRu": "Дуарте",
    "peakEn": "Pico Duarte",
    "wikiRu": "Доминиканская_Республика",
    "wikiEn": "Dominican_Republic",
@@ -3292,15 +3292,15 @@
     "ru": "Доминиканская Республика, в просторечии — Доминикана — государство в восточной части острова Гаити и на прибрежных островах. Западную часть острова занимает государство Республика Гаити.",
     "en": "The Dominican Republic is an island country on the eastern part of the Caribbean island of Hispaniola in the Greater Antilles of the Caribbean Sea in the North Atlantic Ocean."
    },
-   "elo": 1331,
-   "eloRank": 124,
+   "elo": 1330,
+   "eloRank": 126,
    "lat": 18.463,
    "lng": -69.936
   },
   "sv": {
-   "pop": 6.3655,
+   "pop": 6.2558,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3318,15 +3318,15 @@
     "ru": "Сальвадор, официальное название — Республика Эль-Сальвадор — государство в Центральной Америке. Граничит с Гондурасом на востоке, на севере — с Гватемалой, а на западе омывается Тихим океаном. Унитарное государство.",
     "en": "El Salvador, officially the Republic of El Salvador, is a sovereign nation in Central America. Situated along the Pacific coast, it is bounded by Guatemala to the northwest and Honduras to the northeast."
    },
-   "elo": 1333,
-   "eloRank": 122,
+   "elo": 1338,
+   "eloRank": 121,
    "lat": 13.698,
    "lng": -89.191
   },
   "gd": {
-   "pop": 0.1173,
+   "pop": 0.1167,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3344,15 +3344,15 @@
     "ru": "Гренада — островное государство на юго-востоке Карибского моря, занимает остров Гренада и южную часть островов Гренадины в группе Малых Антильских островов, в 120 км к северу от Тринидада.",
     "en": "Grenada is an archipelagic country of the West Indies in the eastern Caribbean Sea."
    },
-   "elo": 1023,
-   "eloRank": 180,
+   "elo": 1010,
+   "eloRank": 184,
    "lat": 12.053,
    "lng": -61.753
   },
   "gt": {
-   "pop": 18.6879,
+   "pop": 17.5987,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3370,15 +3370,15 @@
     "ru": "Гватемала, официальное название — Республика Гватемала — государство в Центральной Америке. Граничит с Сальвадором на юго-западе, Гондурасом на юге, Белизом на северо-востоке и Мексикой на севере.",
     "en": "Guatemala, officially the Republic of Guatemala, is a country in northern Central America. It is bordered to the north and west by Mexico, to the northeast by Belize, to the east by Honduras, and to the southeast by El Salvador."
    },
-   "elo": 1510,
+   "elo": 1501,
    "eloRank": 82,
    "lat": 14.642,
    "lng": -90.513
   },
   "ht": {
-   "pop": 11.9061,
+   "pop": 11.3746,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3388,23 +3388,23 @@
    "forest": 13.5,
    "capital": "Порт-о-Пренс",
    "peak": 2674,
-   "peakRu": "пик Ла-Сель",
-   "peakEn": "Peak la Selle",
+   "peakRu": "Пик Ла-Сель",
+   "peakEn": "Pic la Selle",
    "wikiRu": "Гаити",
    "wikiEn": "Haiti",
    "wiki": {
     "ru": "Гаити, полная официальная форма — Республика Гаити — государство в западной части одноимённого острова и на ряде прибрежных островов.",
-    "en": "Haiti, officially the Republic of Haiti, is a country in the Caribbean on the island of Hispaniola in the Caribbean Sea, east of Cuba and Jamaica and south of The Bahamas."
+    "en": "Haiti, officially the Republic of Haiti, is a country in the Caribbean on the island of Hispaniola in the Caribbean Sea, east of Cuba and Jamaica and south of the Bahamas."
    },
-   "elo": 1552,
+   "elo": 1545,
    "eloRank": 73,
    "lat": 18.547,
    "lng": -72.34
   },
   "hn": {
-   "pop": 11.0059,
+   "pop": 10.2899,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3422,15 +3422,15 @@
     "ru": "Гондурас, официальное название — Республика Гондурас — государство в Центральной Америке. Столица — город Тегусигальпа.",
     "en": "Honduras, officially the Republic of Honduras, is a country in Central America."
    },
-   "elo": 1520,
-   "eloRank": 78,
+   "elo": 1530,
+   "eloRank": 75,
    "lat": 14.106,
    "lng": -87.205
   },
   "ni": {
-   "pop": 7.0075,
+   "pop": 6.6447,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2023
@@ -3448,15 +3448,15 @@
     "ru": "Никарагуа, официальное название — Республика Никарагуа — крупнейшее по площади государство в Центральной Америке, между Коста-Рикой и Гондурасом. Атлантическое побережье Никарагуа европейцы открыли в 1502 году.",
     "en": "Nicaragua, officially the Republic of Nicaragua, is a country in Central America, comprising 130,370 square kilometers."
    },
-   "elo": 1263,
-   "eloRank": 146,
+   "elo": 1270,
+   "eloRank": 147,
    "lat": 12.155,
    "lng": -86.274
   },
   "pa": {
-   "pop": 4.5712,
+   "pop": 4.3454,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3475,14 +3475,14 @@
     "en": "Panama, officially the Republic of Panama, is a country located at the southern end of Central America in North America, bordering South America."
    },
    "elo": 1661,
-   "eloRank": 53,
+   "eloRank": 51,
    "lat": 8.971,
    "lng": -79.535
   },
   "kn": {
-   "pop": 0.0469,
+   "pop": 0.0468,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3497,18 +3497,18 @@
    "wikiRu": "Сент-Китс_и_Невис",
    "wikiEn": "Saint_Kitts_and_Nevis",
    "wiki": {
-    "ru": "Сент-Китс и Невис, официальное название — Федерация Сент-Китс и Невис, также известная как Федерация Сент-Кристофер и Невис — государство в восточной части Карибского моря, состоящее из двух островов — Сент-Китса и Невиса, относящихся к Малым Антильским островам.",
+    "ru": "Сент-Китс и Невис, официальное название — Федерация Сент-Китс и Невис, также известная как Федерация Сент-Кристофер и Невис — государство в Вест-Индии, восточной части Карибского моря, состоящее из двух островов — Сент-Китса и Невиса, относящихся к Малым Антильским остр",
     "en": "Saint Kitts and Nevis, officially the Federation of Saint Kitts and Nevis, is an island country located in the Caribbean consisting of the two islands of Saint Kitts and Nevis, in the Leeward Islands chain of the Lesser Antilles."
    },
-   "elo": 1060,
-   "eloRank": 178,
+   "elo": 1069,
+   "eloRank": 176,
    "lat": 17.298,
    "lng": -62.734
   },
   "lc": {
-   "pop": 0.1801,
+   "pop": 0.1785,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3526,15 +3526,15 @@
     "ru": "Сент-Люсия — островное государство, расположенное на одноимённом острове в Наветренных островах Вест-Индии между островами Сент-Винсент и Мартиника.",
     "en": "Saint Lucia is an island country in the eastern and southern Caribbean."
    },
-   "elo": 1106,
-   "eloRank": 173,
+   "elo": 1127,
+   "eloRank": 170,
    "lat": 14.011,
    "lng": -60.989
   },
   "vc": {
-   "pop": 0.0999,
+   "pop": 0.1028,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3552,15 +3552,15 @@
     "ru": "Сент-Винсент и Гренадины — независимое государство в Карибском море, входит в Содружество наций.",
     "en": "Saint Vincent and the Grenadines, sometimes known simply as Saint Vincent, is an archipelagic country in the eastern Caribbean."
    },
-   "elo": 1220,
-   "eloRank": 154,
+   "elo": 1197,
+   "eloRank": 158,
    "lat": 13.155,
    "lng": -61.227
   },
   "tt": {
-   "pop": 1.3678,
+   "pop": 1.3676,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3578,15 +3578,15 @@
     "ru": "Тринидад и Тобаго, официальное название — Республика Тринидад и Тобаго — островное государство в южной части Карибского моря, недалеко от побережья Венесуэлы.",
     "en": "Trinidad and Tobago, officially the Republic of Trinidad and Tobago, is the southernmost archipelagic country in the Caribbean, comprising the main islands of Trinidad and Tobago, along with several smaller islets."
    },
-   "elo": 1344,
-   "eloRank": 120,
+   "elo": 1326,
+   "eloRank": 129,
    "lat": 10.667,
    "lng": -61.517
   },
   "bo": {
-   "pop": 12.5818,
+   "pop": 11.9374,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3604,15 +3604,15 @@
     "ru": "Боливия, официальное название — Многонациональное Государство Боливия — государство в центральной части Южной Америки.",
     "en": "Bolivia, officially the Plurinational State of Bolivia, is a landlocked country located in central South America. Its geography primarily consists of an Andean region to the west and tropical lowlands to the east and north."
    },
-   "elo": 1605,
+   "elo": 1601,
    "eloRank": 63,
    "lat": -19.047,
    "lng": -65.26
   },
   "ec": {
-   "pop": 18.2899,
+   "pop": 17.6825,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3630,15 +3630,15 @@
     "ru": "Эквадор, официальное название — Республика Эквадор, — унитарное государство на северо-западе Южной Америки.",
     "en": "Ecuador, officially the Republic of Ecuador, is a country in northwestern South America, bordered by Colombia on the north, Peru on the east and south, and the Pacific Ocean on the west."
    },
-   "elo": 1852,
+   "elo": 1856,
    "eloRank": 19,
    "lat": -0.22,
    "lng": -78.512
   },
   "gy": {
-   "pop": 0.836,
+   "pop": 0.8155,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3656,15 +3656,15 @@
     "ru": "Гайана, полное официальное название — Кооперативная Республика Гайана — государство на северо-востоке Южной Америки.",
     "en": "Guyana, officially the Co-operative Republic of Guyana, is a country in South America. It is bordered by the Atlantic Ocean to the north, Suriname to the east, Brazil to the south and southwest, and Venezuela to the west."
    },
-   "elo": 1327,
-   "eloRank": 128,
+   "elo": 1338,
+   "eloRank": 121,
    "lat": 6.806,
    "lng": -58.151
   },
   "py": {
-   "pop": 7.0131,
+   "pop": 6.6842,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3682,15 +3682,15 @@
     "ru": "Парагвай, официальное название — Республика Парагвай — государство в Южной Америке, не имеющее выхода к морю. На юге и юго-западе граничит с Аргентиной, на северо-западе — с Боливией, на востоке и северо-востоке — с Бразилией.",
     "en": "Paraguay, officially the Republic of Paraguay, is a landlocked country located in the central region of South America."
    },
-   "elo": 1838,
-   "eloRank": 21,
+   "elo": 1856,
+   "eloRank": 19,
    "lat": -25.28,
    "lng": -57.634
   },
   "pe": {
-   "pop": 34.5767,
+   "pop": 33.1559,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3709,14 +3709,14 @@
     "en": "Peru, officially the Republic of Peru, is a country in western South America."
    },
    "elo": 1689,
-   "eloRank": 46,
+   "eloRank": 44,
    "lat": -12.06,
    "lng": -77.037
   },
   "sr": {
-   "pop": 0.6399,
+   "pop": 0.6179,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3735,14 +3735,14 @@
     "en": "Suriname, officially the Republic of Suriname, is a country on the northern coast of South America, also considered part of the Caribbean region."
    },
    "elo": 1459,
-   "eloRank": 89,
+   "eloRank": 88,
    "lat": 5.867,
    "lng": -55.167
   },
   "uy": {
-   "pop": 3.3847,
+   "pop": 3.3967,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3760,15 +3760,15 @@
     "ru": "Уругвай, принятое в русском языке официальное название — Восточная Республика Уругвай — государство в юго-восточной части Южной Америки, на побережье Атлантического океана.",
     "en": "Uruguay, officially the Oriental Republic of Uruguay, is a country in southeastern South America."
    },
-   "elo": 1869,
+   "elo": 1870,
    "eloRank": 17,
    "lat": -34.906,
    "lng": -56.191
   },
   "ve": {
-   "pop": 28.5169,
+   "pop": 28.2378,
    "year": {
-    "pop": 2025,
+    "pop": 2021,
     "gdp": 2025,
     "life": 2024,
     "forest": 2024
@@ -3786,8 +3786,8 @@
     "ru": "Венесуэла, официальное название с 1999 года — Боливарианская Республика Венесуэла — государство на севере Южной Америки.",
     "en": "Venezuela, officially the Bolivarian Republic of Venezuela, is a country on the northern coast of South America, consisting of a continental landmass and various islands and islets in the Caribbean Sea."
    },
-   "elo": 1732,
-   "eloRank": 34,
+   "elo": 1723,
+   "eloRank": 36,
    "lat": 10.506,
    "lng": -66.914
   }
